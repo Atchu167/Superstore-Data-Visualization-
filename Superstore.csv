@@ -1,0 +1,501 @@
+Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment,Country,City,State,Postal Code,Region,Product ID,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit
+ORD-1000,2022-01-01,2022-01-03,Second Class,CUST-184,John Smith,Home Office,United States,Seattle,Washington,60633,Central,PROD-0,Furniture,Chairs,Product B,809.61,2,0.47,-123.52
+ORD-1001,2022-01-02,2022-01-04,Same Day,CUST-157,Alice Johnson,Corporate,United States,Houston,Texas,11754,South,PROD-1,Office Supplies,Phones,Product C,495.37,4,0.47,76.26
+ORD-1002,2022-01-03,2022-01-05,First Class,CUST-135,Jane Doe,Corporate,United States,Los Angeles,Illinois,21308,Central,PROD-2,Office Supplies,Phones,Product C,875.1,5,0.49,-53.56
+ORD-1003,2022-01-04,2022-01-06,First Class,CUST-141,Robert Brown,Corporate,United States,Chicago,California,38126,Central,PROD-3,Office Supplies,Binders,Product D,138.79,9,0.36,70.75
+ORD-1004,2022-01-05,2022-01-07,Same Day,CUST-181,John Smith,Consumer,United States,Houston,Texas,42272,East,PROD-4,Office Supplies,Chairs,Product B,503.97,3,0.43,-171.52
+ORD-1005,2022-01-06,2022-01-08,Second Class,CUST-102,Alice Johnson,Corporate,United States,Los Angeles,Illinois,86378,East,PROD-5,Technology,Phones,Product C,778.85,6,0.26,191.94
+ORD-1006,2022-01-07,2022-01-09,Same Day,CUST-185,Alice Johnson,Home Office,United States,Chicago,California,57735,Central,PROD-6,Office Supplies,Binders,Product C,981.4,6,0.26,-150.58
+ORD-1007,2022-01-08,2022-01-10,Second Class,CUST-193,Alice Johnson,Corporate,United States,New York,Illinois,81084,West,PROD-7,Technology,Accessories,Product C,676.64,1,0.5,162.72
+ORD-1008,2022-01-09,2022-01-11,Same Day,CUST-136,John Smith,Corporate,United States,Chicago,Texas,34949,West,PROD-8,Office Supplies,Phones,Product A,191.17,1,0.28,223.6
+ORD-1009,2022-01-10,2022-01-12,First Class,CUST-146,Robert Brown,Corporate,United States,Chicago,California,65253,Central,PROD-9,Office Supplies,Tables,Product A,762.18,5,0.32,-60.42
+ORD-1010,2022-01-11,2022-01-13,First Class,CUST-180,Jane Doe,Consumer,United States,New York,Texas,99904,South,PROD-10,Office Supplies,Chairs,Product A,83.89,8,0.49,147.47
+ORD-1011,2022-01-12,2022-01-14,Second Class,CUST-127,Jane Doe,Home Office,United States,Chicago,Washington,78625,East,PROD-11,Office Supplies,Tables,Product B,765.14,5,0.12,-106.05
+ORD-1012,2022-01-13,2022-01-15,First Class,CUST-172,Jane Doe,Consumer,United States,New York,Illinois,54774,East,PROD-12,Furniture,Binders,Product B,829.54,8,0.48,82.18
+ORD-1013,2022-01-14,2022-01-16,Same Day,CUST-128,Jane Doe,Corporate,United States,New York,Texas,74819,Central,PROD-13,Furniture,Phones,Product D,563.62,4,0.27,-56.69
+ORD-1014,2022-01-15,2022-01-17,Second Class,CUST-102,Alice Johnson,Home Office,United States,Seattle,Texas,45888,East,PROD-14,Office Supplies,Accessories,Product D,497.79,6,0.39,-71.37
+ORD-1015,2022-01-16,2022-01-18,First Class,CUST-199,Robert Brown,Corporate,United States,New York,New York,16918,East,PROD-15,Furniture,Chairs,Product D,937.16,5,0.04,47.58
+ORD-1016,2022-01-17,2022-01-19,Standard Class,CUST-113,Alice Johnson,Consumer,United States,Chicago,New York,14858,South,PROD-16,Office Supplies,Accessories,Product C,10.1,5,0.06,12.37
+ORD-1017,2022-01-18,2022-01-20,Second Class,CUST-141,Alice Johnson,Home Office,United States,Chicago,Illinois,90235,West,PROD-17,Furniture,Chairs,Product B,19.47,9,0.17,251.4
+ORD-1018,2022-01-19,2022-01-21,Standard Class,CUST-136,Jane Doe,Corporate,United States,Chicago,Washington,81362,West,PROD-18,Office Supplies,Binders,Product D,259.43,1,0.43,181.99
+ORD-1019,2022-01-20,2022-01-22,First Class,CUST-140,Jane Doe,Home Office,United States,New York,New York,19459,South,PROD-19,Technology,Binders,Product B,510.62,5,0.18,265.53
+ORD-1020,2022-01-21,2022-01-23,Standard Class,CUST-118,Alice Johnson,Corporate,United States,Los Angeles,Washington,55526,East,PROD-20,Office Supplies,Tables,Product B,545.01,3,0.1,98.86
+ORD-1021,2022-01-22,2022-01-24,Second Class,CUST-197,Robert Brown,Home Office,United States,Seattle,New York,79795,East,PROD-21,Technology,Tables,Product C,377.58,3,0.12,-164.41
+ORD-1022,2022-01-23,2022-01-25,Standard Class,CUST-138,Robert Brown,Consumer,United States,Los Angeles,Washington,74462,East,PROD-22,Furniture,Chairs,Product B,299.78,4,0.45,-60.63
+ORD-1023,2022-01-24,2022-01-26,First Class,CUST-163,Jane Doe,Corporate,United States,Chicago,Texas,19954,West,PROD-23,Office Supplies,Tables,Product C,210.34,7,0.5,90.79
+ORD-1024,2022-01-25,2022-01-27,Same Day,CUST-146,Jane Doe,Corporate,United States,Los Angeles,Washington,51589,West,PROD-24,Technology,Chairs,Product D,802.28,1,0.39,76.47
+ORD-1025,2022-01-26,2022-01-28,First Class,CUST-189,Alice Johnson,Consumer,United States,New York,Texas,10379,East,PROD-25,Technology,Binders,Product C,322.76,6,0.45,-192.73
+ORD-1026,2022-01-27,2022-01-29,Standard Class,CUST-102,Alice Johnson,Home Office,United States,Los Angeles,Texas,61366,South,PROD-26,Furniture,Accessories,Product B,497.54,2,0.16,-184.33
+ORD-1027,2022-01-28,2022-01-30,First Class,CUST-198,John Smith,Home Office,United States,New York,New York,63757,West,PROD-27,Furniture,Phones,Product C,813.18,7,0.48,-190.37
+ORD-1028,2022-01-29,2022-01-31,Second Class,CUST-128,Robert Brown,Corporate,United States,Los Angeles,California,98575,South,PROD-28,Office Supplies,Accessories,Product D,616.24,5,0.2,271.94
+ORD-1029,2022-01-30,2022-02-01,Standard Class,CUST-178,Jane Doe,Home Office,United States,Houston,Washington,71905,Central,PROD-29,Technology,Chairs,Product B,414.52,6,0.03,133.64
+ORD-1030,2022-01-31,2022-02-02,Standard Class,CUST-175,John Smith,Home Office,United States,Chicago,Illinois,15412,South,PROD-30,Office Supplies,Tables,Product D,185.14,6,0.4,285.63
+ORD-1031,2022-02-01,2022-02-03,First Class,CUST-158,Jane Doe,Home Office,United States,Seattle,Texas,59968,Central,PROD-31,Furniture,Chairs,Product D,403.68,1,0.14,291.31
+ORD-1032,2022-02-02,2022-02-04,Same Day,CUST-142,Robert Brown,Corporate,United States,Houston,Washington,11411,South,PROD-32,Technology,Tables,Product A,490.36,6,0.43,205.09
+ORD-1033,2022-02-03,2022-02-05,Same Day,CUST-126,Robert Brown,Home Office,United States,Seattle,Washington,86723,Central,PROD-33,Office Supplies,Chairs,Product C,990.68,7,0.28,-1.33
+ORD-1034,2022-02-04,2022-02-06,Second Class,CUST-121,Robert Brown,Consumer,United States,Chicago,Washington,96133,West,PROD-34,Technology,Tables,Product A,291.35,9,0.47,288.44
+ORD-1035,2022-02-05,2022-02-07,Second Class,CUST-158,Robert Brown,Home Office,United States,Los Angeles,New York,59651,East,PROD-35,Furniture,Binders,Product C,173.98,4,0.01,268.07
+ORD-1036,2022-02-06,2022-02-08,Same Day,CUST-116,Robert Brown,Home Office,United States,Houston,Texas,53440,Central,PROD-36,Technology,Chairs,Product C,228.37,4,0.06,-108.22
+ORD-1037,2022-02-07,2022-02-09,Standard Class,CUST-192,Robert Brown,Consumer,United States,Chicago,New York,82323,South,PROD-37,Technology,Chairs,Product A,219.35,4,0.46,220.26
+ORD-1038,2022-02-08,2022-02-10,First Class,CUST-137,Jane Doe,Consumer,United States,New York,Illinois,16488,East,PROD-38,Office Supplies,Accessories,Product A,85.29,2,0.11,290.2
+ORD-1039,2022-02-09,2022-02-11,Standard Class,CUST-111,Jane Doe,Home Office,United States,Chicago,California,55881,West,PROD-39,Office Supplies,Phones,Product D,371.26,5,0.19,-42.62
+ORD-1040,2022-02-10,2022-02-12,Second Class,CUST-122,John Smith,Consumer,United States,Houston,Washington,42599,West,PROD-40,Technology,Tables,Product C,291.89,5,0.02,-191.19
+ORD-1041,2022-02-11,2022-02-13,Second Class,CUST-106,Alice Johnson,Corporate,United States,Seattle,Texas,72271,West,PROD-41,Office Supplies,Accessories,Product B,888.71,7,0.48,282.24
+ORD-1042,2022-02-12,2022-02-14,Second Class,CUST-196,Robert Brown,Home Office,United States,Chicago,Illinois,57190,Central,PROD-42,Office Supplies,Tables,Product D,782.46,7,0.4,-68.11
+ORD-1043,2022-02-13,2022-02-15,Same Day,CUST-114,Jane Doe,Home Office,United States,Los Angeles,California,45861,South,PROD-43,Office Supplies,Phones,Product D,117.97,6,0.38,89.26
+ORD-1044,2022-02-14,2022-02-16,Same Day,CUST-187,John Smith,Home Office,United States,Chicago,New York,53120,South,PROD-44,Office Supplies,Phones,Product C,852.0,2,0.11,3.26
+ORD-1045,2022-02-15,2022-02-17,Second Class,CUST-175,Alice Johnson,Consumer,United States,Chicago,New York,68913,Central,PROD-45,Furniture,Tables,Product B,118.5,4,0.18,111.48
+ORD-1046,2022-02-16,2022-02-18,Standard Class,CUST-135,Jane Doe,Home Office,United States,Houston,Illinois,48175,East,PROD-46,Technology,Phones,Product B,723.01,4,0.45,270.2
+ORD-1047,2022-02-17,2022-02-19,Second Class,CUST-163,John Smith,Consumer,United States,Houston,Texas,99924,South,PROD-47,Office Supplies,Chairs,Product B,577.1,8,0.14,148.56
+ORD-1048,2022-02-18,2022-02-20,Second Class,CUST-132,Alice Johnson,Consumer,United States,Seattle,California,60759,South,PROD-48,Office Supplies,Binders,Product C,95.94,8,0.01,-163.62
+ORD-1049,2022-02-19,2022-02-21,First Class,CUST-191,Jane Doe,Consumer,United States,Houston,New York,32629,South,PROD-49,Furniture,Binders,Product A,906.27,8,0.1,-108.9
+ORD-1050,2022-02-20,2022-02-22,First Class,CUST-149,Robert Brown,Home Office,United States,Houston,New York,50133,West,PROD-50,Technology,Tables,Product C,875.82,1,0.01,157.54
+ORD-1051,2022-02-21,2022-02-23,Second Class,CUST-100,Robert Brown,Home Office,United States,Seattle,Washington,14091,Central,PROD-51,Furniture,Tables,Product B,845.41,8,0.16,-51.7
+ORD-1052,2022-02-22,2022-02-24,First Class,CUST-122,Alice Johnson,Home Office,United States,Chicago,Illinois,48453,East,PROD-52,Office Supplies,Binders,Product C,375.87,6,0.25,244.7
+ORD-1053,2022-02-23,2022-02-25,First Class,CUST-197,John Smith,Corporate,United States,Houston,Washington,25116,South,PROD-53,Office Supplies,Binders,Product A,230.72,6,0.04,136.0
+ORD-1054,2022-02-24,2022-02-26,Second Class,CUST-170,John Smith,Home Office,United States,Chicago,New York,54916,East,PROD-54,Furniture,Accessories,Product B,997.14,3,0.09,276.41
+ORD-1055,2022-02-25,2022-02-27,Same Day,CUST-136,John Smith,Consumer,United States,New York,New York,36212,West,PROD-55,Office Supplies,Chairs,Product C,819.16,1,0.38,-106.9
+ORD-1056,2022-02-26,2022-02-28,Same Day,CUST-118,Robert Brown,Home Office,United States,Houston,Washington,50672,East,PROD-56,Technology,Chairs,Product B,51.71,8,0.27,289.3
+ORD-1057,2022-02-27,2022-03-01,Standard Class,CUST-127,Jane Doe,Corporate,United States,Los Angeles,Texas,53281,West,PROD-57,Furniture,Chairs,Product C,379.55,1,0.15,-183.97
+ORD-1058,2022-02-28,2022-03-02,Second Class,CUST-128,John Smith,Consumer,United States,Houston,New York,28653,East,PROD-58,Technology,Binders,Product B,814.07,8,0.04,36.81
+ORD-1059,2022-03-01,2022-03-03,First Class,CUST-152,Alice Johnson,Consumer,United States,Los Angeles,Texas,99661,South,PROD-59,Office Supplies,Accessories,Product B,533.1,6,0.07,105.82
+ORD-1060,2022-03-02,2022-03-04,Standard Class,CUST-194,Jane Doe,Consumer,United States,Seattle,Washington,42291,West,PROD-60,Office Supplies,Binders,Product B,254.66,9,0.11,161.08
+ORD-1061,2022-03-03,2022-03-05,Same Day,CUST-150,Robert Brown,Home Office,United States,Houston,Texas,14922,Central,PROD-61,Office Supplies,Accessories,Product D,794.96,3,0.33,-186.33
+ORD-1062,2022-03-04,2022-03-06,Same Day,CUST-146,John Smith,Home Office,United States,Seattle,California,15662,Central,PROD-62,Office Supplies,Tables,Product C,269.13,1,0.32,241.94
+ORD-1063,2022-03-05,2022-03-07,Standard Class,CUST-107,Jane Doe,Corporate,United States,Seattle,Texas,68976,Central,PROD-63,Office Supplies,Tables,Product B,10.39,7,0.26,55.2
+ORD-1064,2022-03-06,2022-03-08,Second Class,CUST-185,Alice Johnson,Consumer,United States,New York,Illinois,51078,South,PROD-64,Office Supplies,Chairs,Product B,239.01,5,0.42,233.54
+ORD-1065,2022-03-07,2022-03-09,Second Class,CUST-116,Robert Brown,Corporate,United States,Houston,New York,42107,East,PROD-65,Office Supplies,Binders,Product C,993.44,2,0.3,139.51
+ORD-1066,2022-03-08,2022-03-10,Second Class,CUST-129,John Smith,Consumer,United States,Houston,California,34394,South,PROD-66,Furniture,Accessories,Product B,659.64,7,0.19,260.93
+ORD-1067,2022-03-09,2022-03-11,Same Day,CUST-111,Jane Doe,Consumer,United States,New York,New York,96051,East,PROD-67,Office Supplies,Phones,Product A,228.46,4,0.07,-81.16
+ORD-1068,2022-03-10,2022-03-12,First Class,CUST-161,Alice Johnson,Corporate,United States,Los Angeles,Washington,95924,Central,PROD-68,Technology,Binders,Product A,689.28,7,0.13,13.23
+ORD-1069,2022-03-11,2022-03-13,First Class,CUST-114,Alice Johnson,Home Office,United States,Houston,New York,55478,South,PROD-69,Office Supplies,Tables,Product D,690.07,7,0.36,132.08
+ORD-1070,2022-03-12,2022-03-14,Second Class,CUST-130,Jane Doe,Consumer,United States,Seattle,New York,31959,West,PROD-70,Technology,Phones,Product C,644.34,7,0.1,-56.84
+ORD-1071,2022-03-13,2022-03-15,Same Day,CUST-108,Robert Brown,Home Office,United States,Seattle,Washington,39880,South,PROD-71,Furniture,Binders,Product D,79.84,3,0.5,199.24
+ORD-1072,2022-03-14,2022-03-16,First Class,CUST-140,Alice Johnson,Home Office,United States,New York,Texas,10583,Central,PROD-72,Office Supplies,Tables,Product B,250.53,5,0.04,-135.96
+ORD-1073,2022-03-15,2022-03-17,Standard Class,CUST-148,Alice Johnson,Consumer,United States,Chicago,Washington,51443,East,PROD-73,Office Supplies,Chairs,Product D,872.13,1,0.38,152.84
+ORD-1074,2022-03-16,2022-03-18,First Class,CUST-130,Jane Doe,Corporate,United States,Houston,Illinois,10707,South,PROD-74,Technology,Tables,Product C,737.39,1,0.1,-103.94
+ORD-1075,2022-03-17,2022-03-19,First Class,CUST-123,Robert Brown,Consumer,United States,Houston,Texas,69453,East,PROD-75,Technology,Accessories,Product B,176.14,1,0.4,-119.28
+ORD-1076,2022-03-18,2022-03-20,Second Class,CUST-166,Jane Doe,Corporate,United States,Seattle,Texas,67170,West,PROD-76,Office Supplies,Accessories,Product D,305.6,7,0.22,18.45
+ORD-1077,2022-03-19,2022-03-21,Same Day,CUST-192,Jane Doe,Home Office,United States,Chicago,Illinois,17394,South,PROD-77,Furniture,Binders,Product D,567.09,5,0.46,93.95
+ORD-1078,2022-03-20,2022-03-22,Second Class,CUST-164,Alice Johnson,Corporate,United States,New York,California,95461,South,PROD-78,Technology,Accessories,Product C,828.18,4,0.06,-44.24
+ORD-1079,2022-03-21,2022-03-23,Standard Class,CUST-112,Jane Doe,Home Office,United States,Houston,California,16871,Central,PROD-79,Office Supplies,Binders,Product B,208.51,9,0.05,165.62
+ORD-1080,2022-03-22,2022-03-24,Same Day,CUST-117,Alice Johnson,Consumer,United States,Chicago,Illinois,88383,Central,PROD-80,Furniture,Accessories,Product C,110.65,1,0.11,273.41
+ORD-1081,2022-03-23,2022-03-25,First Class,CUST-133,Robert Brown,Home Office,United States,Seattle,Texas,80144,Central,PROD-81,Furniture,Binders,Product D,388.05,3,0.14,270.24
+ORD-1082,2022-03-24,2022-03-26,First Class,CUST-110,Jane Doe,Consumer,United States,Chicago,Washington,56657,South,PROD-82,Office Supplies,Phones,Product D,913.23,9,0.14,-69.64
+ORD-1083,2022-03-25,2022-03-27,Second Class,CUST-128,Robert Brown,Corporate,United States,New York,California,97829,South,PROD-83,Office Supplies,Chairs,Product C,267.91,1,0.43,24.96
+ORD-1084,2022-03-26,2022-03-28,Same Day,CUST-175,Jane Doe,Corporate,United States,New York,Texas,60069,East,PROD-84,Furniture,Accessories,Product A,117.22,4,0.15,105.61
+ORD-1085,2022-03-27,2022-03-29,Standard Class,CUST-105,John Smith,Consumer,United States,New York,New York,69431,South,PROD-85,Office Supplies,Tables,Product A,65.38,3,0.11,103.62
+ORD-1086,2022-03-28,2022-03-30,Same Day,CUST-181,Jane Doe,Home Office,United States,Seattle,Washington,54153,Central,PROD-86,Furniture,Phones,Product D,358.15,2,0.28,-100.35
+ORD-1087,2022-03-29,2022-03-31,Same Day,CUST-105,Alice Johnson,Corporate,United States,Houston,Washington,19020,East,PROD-87,Furniture,Chairs,Product D,47.25,1,0.3,230.32
+ORD-1088,2022-03-30,2022-04-01,Standard Class,CUST-142,Alice Johnson,Corporate,United States,Seattle,New York,21138,West,PROD-88,Technology,Phones,Product A,587.2,5,0.35,291.12
+ORD-1089,2022-03-31,2022-04-02,Second Class,CUST-186,Jane Doe,Corporate,United States,Seattle,Washington,57607,West,PROD-89,Furniture,Phones,Product C,675.83,6,0.24,180.09
+ORD-1090,2022-04-01,2022-04-03,First Class,CUST-152,Robert Brown,Home Office,United States,Los Angeles,California,34744,Central,PROD-90,Technology,Phones,Product C,465.88,2,0.08,-135.61
+ORD-1091,2022-04-02,2022-04-04,Standard Class,CUST-157,Jane Doe,Consumer,United States,Seattle,Illinois,38134,East,PROD-91,Technology,Binders,Product D,743.71,7,0.09,112.1
+ORD-1092,2022-04-03,2022-04-05,Second Class,CUST-156,John Smith,Home Office,United States,Seattle,Washington,19082,West,PROD-92,Technology,Chairs,Product C,506.01,2,0.45,110.38
+ORD-1093,2022-04-04,2022-04-06,Same Day,CUST-178,Jane Doe,Corporate,United States,Chicago,Texas,12125,West,PROD-93,Office Supplies,Tables,Product C,705.33,7,0.41,55.31
+ORD-1094,2022-04-05,2022-04-07,Same Day,CUST-187,John Smith,Home Office,United States,Seattle,California,11323,South,PROD-94,Furniture,Tables,Product A,238.33,9,0.35,-95.16
+ORD-1095,2022-04-06,2022-04-08,Standard Class,CUST-181,Jane Doe,Consumer,United States,New York,California,57699,East,PROD-95,Furniture,Accessories,Product D,747.17,3,0.5,-49.14
+ORD-1096,2022-04-07,2022-04-09,Same Day,CUST-110,Alice Johnson,Consumer,United States,Houston,California,57931,Central,PROD-96,Furniture,Accessories,Product A,506.62,8,0.3,-64.65
+ORD-1097,2022-04-08,2022-04-10,Second Class,CUST-172,Alice Johnson,Home Office,United States,New York,New York,32594,West,PROD-97,Technology,Chairs,Product A,708.32,2,0.47,128.48
+ORD-1098,2022-04-09,2022-04-11,First Class,CUST-148,Alice Johnson,Corporate,United States,Seattle,Texas,59742,West,PROD-98,Furniture,Accessories,Product D,452.23,2,0.14,-163.35
+ORD-1099,2022-04-10,2022-04-12,Same Day,CUST-119,Jane Doe,Home Office,United States,Houston,New York,27877,East,PROD-99,Technology,Binders,Product D,510.88,4,0.01,-171.06
+ORD-1100,2022-04-11,2022-04-13,Second Class,CUST-112,John Smith,Corporate,United States,New York,New York,74790,East,PROD-100,Technology,Chairs,Product A,51.12,9,0.44,146.87
+ORD-1101,2022-04-12,2022-04-14,Second Class,CUST-125,Robert Brown,Home Office,United States,Houston,Washington,30389,South,PROD-101,Furniture,Accessories,Product D,494.42,3,0.36,81.49
+ORD-1102,2022-04-13,2022-04-15,Same Day,CUST-177,Robert Brown,Home Office,United States,Houston,Texas,84877,East,PROD-102,Technology,Binders,Product D,150.86,7,0.05,9.61
+ORD-1103,2022-04-14,2022-04-16,Standard Class,CUST-116,John Smith,Home Office,United States,New York,New York,11677,Central,PROD-103,Technology,Tables,Product B,151.07,7,0.48,-56.4
+ORD-1104,2022-04-15,2022-04-17,First Class,CUST-104,Robert Brown,Corporate,United States,Chicago,Texas,81277,East,PROD-104,Technology,Accessories,Product C,439.02,8,0.05,56.96
+ORD-1105,2022-04-16,2022-04-18,First Class,CUST-188,Jane Doe,Consumer,United States,Los Angeles,New York,21732,West,PROD-105,Office Supplies,Phones,Product C,580.45,5,0.08,-17.03
+ORD-1106,2022-04-17,2022-04-19,Standard Class,CUST-127,Alice Johnson,Corporate,United States,Seattle,Washington,65086,South,PROD-106,Office Supplies,Tables,Product A,349.62,4,0.21,-28.4
+ORD-1107,2022-04-18,2022-04-20,Standard Class,CUST-150,John Smith,Home Office,United States,Los Angeles,Texas,89014,Central,PROD-107,Office Supplies,Accessories,Product A,168.89,9,0.24,284.89
+ORD-1108,2022-04-19,2022-04-21,Same Day,CUST-168,John Smith,Corporate,United States,Houston,Texas,13947,East,PROD-108,Furniture,Binders,Product C,744.0,6,0.06,-102.35
+ORD-1109,2022-04-20,2022-04-22,Same Day,CUST-103,Alice Johnson,Consumer,United States,Los Angeles,California,13673,East,PROD-109,Office Supplies,Accessories,Product A,963.46,7,0.22,234.25
+ORD-1110,2022-04-21,2022-04-23,Same Day,CUST-158,Robert Brown,Home Office,United States,Chicago,Texas,14918,West,PROD-110,Office Supplies,Phones,Product D,736.31,1,0.17,-179.6
+ORD-1111,2022-04-22,2022-04-24,Same Day,CUST-112,Robert Brown,Home Office,United States,New York,Texas,66733,Central,PROD-111,Office Supplies,Binders,Product D,86.29,7,0.03,181.15
+ORD-1112,2022-04-23,2022-04-25,Second Class,CUST-102,Jane Doe,Consumer,United States,Los Angeles,California,10688,West,PROD-112,Technology,Tables,Product C,842.5,1,0.43,200.4
+ORD-1113,2022-04-24,2022-04-26,Same Day,CUST-176,Robert Brown,Consumer,United States,Houston,New York,44959,South,PROD-113,Technology,Binders,Product C,76.84,6,0.28,179.38
+ORD-1114,2022-04-25,2022-04-27,Same Day,CUST-196,Jane Doe,Home Office,United States,Los Angeles,Illinois,50649,West,PROD-114,Office Supplies,Chairs,Product B,441.95,8,0.16,-152.24
+ORD-1115,2022-04-26,2022-04-28,First Class,CUST-196,Robert Brown,Corporate,United States,Los Angeles,California,17197,South,PROD-115,Furniture,Phones,Product A,929.57,6,0.01,54.32
+ORD-1116,2022-04-27,2022-04-29,Standard Class,CUST-161,Alice Johnson,Consumer,United States,Seattle,Illinois,17729,East,PROD-116,Furniture,Accessories,Product A,270.55,5,0.46,-94.51
+ORD-1117,2022-04-28,2022-04-30,Standard Class,CUST-115,Alice Johnson,Home Office,United States,Chicago,Washington,42088,Central,PROD-117,Office Supplies,Chairs,Product B,136.67,2,0.33,-110.94
+ORD-1118,2022-04-29,2022-05-01,Standard Class,CUST-174,Jane Doe,Consumer,United States,New York,Illinois,80208,East,PROD-118,Technology,Tables,Product B,764.62,3,0.49,-166.05
+ORD-1119,2022-04-30,2022-05-02,First Class,CUST-112,Jane Doe,Consumer,United States,Chicago,California,64580,West,PROD-119,Office Supplies,Chairs,Product B,929.32,9,0.12,114.88
+ORD-1120,2022-05-01,2022-05-03,First Class,CUST-118,Robert Brown,Home Office,United States,Seattle,Illinois,23287,Central,PROD-120,Furniture,Binders,Product D,332.51,3,0.37,209.25
+ORD-1121,2022-05-02,2022-05-04,Same Day,CUST-130,Robert Brown,Home Office,United States,Los Angeles,Texas,62539,West,PROD-121,Technology,Phones,Product C,240.13,2,0.42,177.03
+ORD-1122,2022-05-03,2022-05-05,Same Day,CUST-159,Alice Johnson,Consumer,United States,New York,California,25138,Central,PROD-122,Office Supplies,Tables,Product D,190.66,9,0.43,-136.44
+ORD-1123,2022-05-04,2022-05-06,Second Class,CUST-105,Alice Johnson,Corporate,United States,Houston,New York,60819,Central,PROD-123,Office Supplies,Chairs,Product C,963.6,5,0.45,79.85
+ORD-1124,2022-05-05,2022-05-07,Second Class,CUST-116,Robert Brown,Corporate,United States,Los Angeles,Texas,53456,East,PROD-124,Technology,Binders,Product D,580.87,5,0.21,247.28
+ORD-1125,2022-05-06,2022-05-08,Second Class,CUST-195,Jane Doe,Consumer,United States,New York,New York,80236,West,PROD-125,Furniture,Phones,Product C,861.49,1,0.46,-127.26
+ORD-1126,2022-05-07,2022-05-09,Same Day,CUST-196,Alice Johnson,Home Office,United States,Chicago,Illinois,68809,East,PROD-126,Office Supplies,Chairs,Product C,315.26,8,0.28,157.81
+ORD-1127,2022-05-08,2022-05-10,First Class,CUST-160,Robert Brown,Home Office,United States,Houston,Illinois,85136,Central,PROD-127,Furniture,Tables,Product B,65.87,8,0.12,70.21
+ORD-1128,2022-05-09,2022-05-11,First Class,CUST-143,Robert Brown,Corporate,United States,Houston,New York,83353,Central,PROD-128,Furniture,Accessories,Product D,459.27,4,0.46,191.25
+ORD-1129,2022-05-10,2022-05-12,Second Class,CUST-131,Robert Brown,Home Office,United States,Chicago,Illinois,91370,Central,PROD-129,Technology,Phones,Product A,215.04,2,0.23,116.46
+ORD-1130,2022-05-11,2022-05-13,Second Class,CUST-199,Robert Brown,Home Office,United States,Chicago,Illinois,12276,South,PROD-130,Technology,Tables,Product C,523.79,6,0.1,-77.57
+ORD-1131,2022-05-12,2022-05-14,Standard Class,CUST-144,Alice Johnson,Consumer,United States,Los Angeles,New York,95990,East,PROD-131,Office Supplies,Accessories,Product A,542.61,3,0.01,-14.18
+ORD-1132,2022-05-13,2022-05-15,First Class,CUST-124,Jane Doe,Corporate,United States,Seattle,New York,25146,South,PROD-132,Furniture,Phones,Product A,301.35,4,0.42,265.17
+ORD-1133,2022-05-14,2022-05-16,Second Class,CUST-162,Jane Doe,Corporate,United States,Los Angeles,California,62725,East,PROD-133,Furniture,Accessories,Product B,314.38,2,0.43,130.19
+ORD-1134,2022-05-15,2022-05-17,Standard Class,CUST-179,Robert Brown,Corporate,United States,Seattle,Washington,99203,Central,PROD-134,Furniture,Chairs,Product B,33.93,9,0.12,-123.8
+ORD-1135,2022-05-16,2022-05-18,Standard Class,CUST-121,John Smith,Home Office,United States,New York,Texas,57540,Central,PROD-135,Office Supplies,Tables,Product A,426.2,9,0.36,192.85
+ORD-1136,2022-05-17,2022-05-19,First Class,CUST-119,John Smith,Corporate,United States,Houston,Washington,26649,Central,PROD-136,Furniture,Tables,Product C,330.45,7,0.29,141.69
+ORD-1137,2022-05-18,2022-05-20,Same Day,CUST-177,Jane Doe,Corporate,United States,Chicago,Texas,96585,Central,PROD-137,Office Supplies,Accessories,Product A,623.3,7,0.15,-32.05
+ORD-1138,2022-05-19,2022-05-21,Second Class,CUST-133,John Smith,Consumer,United States,Seattle,New York,53059,South,PROD-138,Technology,Phones,Product A,861.17,2,0.44,-13.42
+ORD-1139,2022-05-20,2022-05-22,Same Day,CUST-104,Alice Johnson,Corporate,United States,Houston,Texas,37845,Central,PROD-139,Furniture,Accessories,Product B,497.71,9,0.2,227.88
+ORD-1140,2022-05-21,2022-05-23,Same Day,CUST-139,John Smith,Home Office,United States,New York,Texas,97861,Central,PROD-140,Furniture,Binders,Product B,91.88,6,0.41,-92.59
+ORD-1141,2022-05-22,2022-05-24,Second Class,CUST-167,Alice Johnson,Home Office,United States,Los Angeles,Washington,70015,South,PROD-141,Technology,Accessories,Product B,934.15,1,0.27,60.04
+ORD-1142,2022-05-23,2022-05-25,First Class,CUST-134,John Smith,Consumer,United States,Houston,Texas,56425,South,PROD-142,Furniture,Tables,Product C,810.24,5,0.07,-100.49
+ORD-1143,2022-05-24,2022-05-26,Same Day,CUST-134,Jane Doe,Home Office,United States,Houston,Texas,66133,West,PROD-143,Furniture,Tables,Product B,371.86,8,0.29,-10.98
+ORD-1144,2022-05-25,2022-05-27,First Class,CUST-142,Jane Doe,Home Office,United States,Houston,California,32776,West,PROD-144,Technology,Accessories,Product C,337.42,5,0.02,75.93
+ORD-1145,2022-05-26,2022-05-28,Same Day,CUST-178,Robert Brown,Home Office,United States,New York,New York,90730,East,PROD-145,Furniture,Tables,Product B,938.55,6,0.25,-81.67
+ORD-1146,2022-05-27,2022-05-29,First Class,CUST-182,John Smith,Consumer,United States,New York,California,83164,East,PROD-146,Technology,Chairs,Product B,381.15,1,0.48,95.83
+ORD-1147,2022-05-28,2022-05-30,Standard Class,CUST-138,Robert Brown,Home Office,United States,Seattle,New York,56263,East,PROD-147,Furniture,Binders,Product C,639.44,9,0.08,-163.37
+ORD-1148,2022-05-29,2022-05-31,First Class,CUST-148,Robert Brown,Consumer,United States,Los Angeles,Washington,88296,West,PROD-148,Furniture,Tables,Product B,985.49,6,0.43,114.28
+ORD-1149,2022-05-30,2022-06-01,Same Day,CUST-181,Alice Johnson,Consumer,United States,Seattle,California,19850,Central,PROD-149,Office Supplies,Binders,Product C,46.37,4,0.01,4.96
+ORD-1150,2022-05-31,2022-06-02,Same Day,CUST-105,Robert Brown,Home Office,United States,Seattle,Illinois,84870,Central,PROD-150,Furniture,Binders,Product C,321.48,5,0.37,-175.73
+ORD-1151,2022-06-01,2022-06-03,Second Class,CUST-191,Robert Brown,Home Office,United States,New York,California,28079,West,PROD-151,Technology,Phones,Product A,238.92,3,0.49,231.21
+ORD-1152,2022-06-02,2022-06-04,First Class,CUST-108,Alice Johnson,Corporate,United States,Seattle,Washington,74709,West,PROD-152,Technology,Tables,Product A,923.14,8,0.04,-68.4
+ORD-1153,2022-06-03,2022-06-05,Second Class,CUST-140,John Smith,Consumer,United States,Chicago,California,18159,East,PROD-153,Technology,Phones,Product C,555.63,9,0.07,52.67
+ORD-1154,2022-06-04,2022-06-06,First Class,CUST-169,Alice Johnson,Home Office,United States,Houston,New York,49599,Central,PROD-154,Technology,Binders,Product A,63.18,4,0.14,-100.03
+ORD-1155,2022-06-05,2022-06-07,First Class,CUST-105,Robert Brown,Corporate,United States,New York,Washington,83881,Central,PROD-155,Office Supplies,Accessories,Product A,757.7,5,0.08,49.84
+ORD-1156,2022-06-06,2022-06-08,Standard Class,CUST-107,Alice Johnson,Home Office,United States,Chicago,Illinois,84312,South,PROD-156,Office Supplies,Binders,Product C,687.24,9,0.37,-157.32
+ORD-1157,2022-06-07,2022-06-09,First Class,CUST-178,John Smith,Corporate,United States,Chicago,New York,68619,South,PROD-157,Office Supplies,Phones,Product D,665.55,8,0.49,246.8
+ORD-1158,2022-06-08,2022-06-10,Second Class,CUST-137,John Smith,Home Office,United States,Chicago,Texas,65383,West,PROD-158,Technology,Chairs,Product A,956.17,6,0.49,12.04
+ORD-1159,2022-06-09,2022-06-11,Standard Class,CUST-178,Jane Doe,Consumer,United States,Houston,New York,21670,Central,PROD-159,Furniture,Phones,Product A,875.86,1,0.22,-119.79
+ORD-1160,2022-06-10,2022-06-12,Same Day,CUST-133,Robert Brown,Corporate,United States,New York,New York,19393,Central,PROD-160,Office Supplies,Tables,Product B,755.72,3,0.42,102.7
+ORD-1161,2022-06-11,2022-06-13,First Class,CUST-127,Jane Doe,Consumer,United States,Seattle,Washington,83143,West,PROD-161,Technology,Accessories,Product A,230.44,6,0.18,291.69
+ORD-1162,2022-06-12,2022-06-14,Second Class,CUST-151,Alice Johnson,Consumer,United States,Houston,Illinois,75146,Central,PROD-162,Office Supplies,Accessories,Product A,146.63,7,0.13,129.42
+ORD-1163,2022-06-13,2022-06-15,Same Day,CUST-177,John Smith,Home Office,United States,Los Angeles,Illinois,45416,Central,PROD-163,Technology,Accessories,Product A,228.68,9,0.06,259.36
+ORD-1164,2022-06-14,2022-06-16,Second Class,CUST-130,Robert Brown,Home Office,United States,Chicago,Texas,63747,South,PROD-164,Office Supplies,Phones,Product B,213.45,8,0.49,60.61
+ORD-1165,2022-06-15,2022-06-17,First Class,CUST-143,Jane Doe,Home Office,United States,Chicago,California,83859,Central,PROD-165,Furniture,Tables,Product B,572.28,4,0.03,-77.89
+ORD-1166,2022-06-16,2022-06-18,Standard Class,CUST-146,John Smith,Corporate,United States,Chicago,Illinois,63660,Central,PROD-166,Furniture,Chairs,Product C,666.41,6,0.45,-102.7
+ORD-1167,2022-06-17,2022-06-19,First Class,CUST-109,Jane Doe,Corporate,United States,Houston,California,56612,West,PROD-167,Furniture,Accessories,Product D,532.14,5,0.47,186.54
+ORD-1168,2022-06-18,2022-06-20,First Class,CUST-167,Alice Johnson,Consumer,United States,Seattle,California,19665,South,PROD-168,Office Supplies,Phones,Product C,65.79,8,0.06,164.64
+ORD-1169,2022-06-19,2022-06-21,First Class,CUST-103,Jane Doe,Consumer,United States,New York,Illinois,58855,South,PROD-169,Furniture,Accessories,Product C,369.53,6,0.26,-197.09
+ORD-1170,2022-06-20,2022-06-22,First Class,CUST-167,John Smith,Home Office,United States,Seattle,New York,76057,Central,PROD-170,Technology,Accessories,Product C,968.05,6,0.23,162.75
+ORD-1171,2022-06-21,2022-06-23,Second Class,CUST-154,Robert Brown,Consumer,United States,Chicago,Illinois,91173,Central,PROD-171,Office Supplies,Tables,Product C,698.56,1,0.26,-150.52
+ORD-1172,2022-06-22,2022-06-24,Standard Class,CUST-197,Robert Brown,Corporate,United States,Seattle,Texas,25290,Central,PROD-172,Technology,Tables,Product C,376.04,8,0.11,-19.64
+ORD-1173,2022-06-23,2022-06-25,First Class,CUST-163,Jane Doe,Home Office,United States,Chicago,New York,63335,West,PROD-173,Technology,Accessories,Product A,674.91,8,0.46,43.34
+ORD-1174,2022-06-24,2022-06-26,Second Class,CUST-199,Jane Doe,Home Office,United States,Los Angeles,California,48366,South,PROD-174,Furniture,Binders,Product C,272.46,9,0.23,192.6
+ORD-1175,2022-06-25,2022-06-27,First Class,CUST-180,Jane Doe,Consumer,United States,Seattle,Texas,76024,South,PROD-175,Furniture,Tables,Product C,86.7,6,0.43,147.8
+ORD-1176,2022-06-26,2022-06-28,Standard Class,CUST-128,Robert Brown,Home Office,United States,Los Angeles,Washington,12240,West,PROD-176,Furniture,Chairs,Product B,532.79,2,0.47,122.44
+ORD-1177,2022-06-27,2022-06-29,Same Day,CUST-137,Alice Johnson,Corporate,United States,New York,California,73089,East,PROD-177,Technology,Binders,Product C,296.87,3,0.25,-188.28
+ORD-1178,2022-06-28,2022-06-30,Second Class,CUST-164,Alice Johnson,Consumer,United States,Los Angeles,New York,96606,South,PROD-178,Technology,Chairs,Product C,486.84,3,0.49,-192.8
+ORD-1179,2022-06-29,2022-07-01,Standard Class,CUST-137,Jane Doe,Consumer,United States,Seattle,California,78695,Central,PROD-179,Furniture,Accessories,Product B,902.97,7,0.06,-90.98
+ORD-1180,2022-06-30,2022-07-02,First Class,CUST-193,Jane Doe,Consumer,United States,Los Angeles,Washington,66135,West,PROD-180,Office Supplies,Accessories,Product C,655.22,4,0.21,188.81
+ORD-1181,2022-07-01,2022-07-03,First Class,CUST-118,Jane Doe,Consumer,United States,Seattle,Washington,11400,South,PROD-181,Office Supplies,Tables,Product B,726.09,9,0.29,-135.71
+ORD-1182,2022-07-02,2022-07-04,Same Day,CUST-178,Alice Johnson,Corporate,United States,Houston,Washington,37634,East,PROD-182,Office Supplies,Chairs,Product D,111.56,6,0.43,150.44
+ORD-1183,2022-07-03,2022-07-05,Standard Class,CUST-170,Robert Brown,Corporate,United States,Chicago,Illinois,81378,South,PROD-183,Technology,Chairs,Product A,484.86,3,0.02,55.04
+ORD-1184,2022-07-04,2022-07-06,Standard Class,CUST-192,Jane Doe,Home Office,United States,Los Angeles,Washington,46202,East,PROD-184,Technology,Tables,Product A,410.3,1,0.03,255.22
+ORD-1185,2022-07-05,2022-07-07,Standard Class,CUST-152,Alice Johnson,Home Office,United States,Houston,New York,96912,South,PROD-185,Furniture,Accessories,Product A,650.39,1,0.05,31.57
+ORD-1186,2022-07-06,2022-07-08,First Class,CUST-110,Alice Johnson,Consumer,United States,Chicago,California,24963,East,PROD-186,Furniture,Tables,Product D,294.86,6,0.38,63.23
+ORD-1187,2022-07-07,2022-07-09,Second Class,CUST-132,Jane Doe,Home Office,United States,New York,California,71482,West,PROD-187,Technology,Chairs,Product C,389.23,1,0.27,-77.06
+ORD-1188,2022-07-08,2022-07-10,Standard Class,CUST-146,John Smith,Corporate,United States,New York,Texas,26162,West,PROD-188,Office Supplies,Phones,Product D,981.21,1,0.47,-2.73
+ORD-1189,2022-07-09,2022-07-11,Standard Class,CUST-163,Robert Brown,Consumer,United States,Chicago,Illinois,91659,Central,PROD-189,Furniture,Chairs,Product C,123.66,2,0.42,-44.85
+ORD-1190,2022-07-10,2022-07-12,Standard Class,CUST-193,Jane Doe,Home Office,United States,New York,Washington,54522,South,PROD-190,Technology,Chairs,Product B,207.91,8,0.06,-32.17
+ORD-1191,2022-07-11,2022-07-13,Standard Class,CUST-118,Robert Brown,Corporate,United States,Houston,California,35282,Central,PROD-191,Office Supplies,Binders,Product D,246.66,5,0.14,49.99
+ORD-1192,2022-07-12,2022-07-14,Same Day,CUST-136,John Smith,Home Office,United States,Seattle,Washington,42057,Central,PROD-192,Technology,Binders,Product B,699.69,2,0.22,270.91
+ORD-1193,2022-07-13,2022-07-15,Same Day,CUST-129,John Smith,Consumer,United States,Los Angeles,Washington,70651,Central,PROD-193,Furniture,Binders,Product B,716.55,1,0.15,-189.82
+ORD-1194,2022-07-14,2022-07-16,First Class,CUST-139,Robert Brown,Corporate,United States,New York,California,21876,South,PROD-194,Office Supplies,Accessories,Product D,786.91,9,0.19,91.76
+ORD-1195,2022-07-15,2022-07-17,Standard Class,CUST-128,Robert Brown,Home Office,United States,Chicago,Illinois,12630,East,PROD-195,Technology,Chairs,Product C,387.23,7,0.11,-101.74
+ORD-1196,2022-07-16,2022-07-18,Same Day,CUST-154,Alice Johnson,Consumer,United States,New York,California,91540,South,PROD-196,Furniture,Binders,Product B,853.88,7,0.06,59.33
+ORD-1197,2022-07-17,2022-07-19,Second Class,CUST-129,Robert Brown,Corporate,United States,Los Angeles,Washington,29584,West,PROD-197,Office Supplies,Tables,Product A,700.37,4,0.28,240.96
+ORD-1198,2022-07-18,2022-07-20,Second Class,CUST-155,John Smith,Home Office,United States,New York,Texas,27826,West,PROD-198,Office Supplies,Phones,Product B,716.13,1,0.03,55.36
+ORD-1199,2022-07-19,2022-07-21,Standard Class,CUST-190,Jane Doe,Consumer,United States,New York,California,12508,Central,PROD-199,Office Supplies,Chairs,Product A,823.77,6,0.35,-134.7
+ORD-1200,2022-07-20,2022-07-22,First Class,CUST-127,Alice Johnson,Home Office,United States,Seattle,Texas,60184,East,PROD-200,Furniture,Binders,Product B,632.64,2,0.47,-138.94
+ORD-1201,2022-07-21,2022-07-23,Standard Class,CUST-160,John Smith,Consumer,United States,Los Angeles,Illinois,34727,Central,PROD-201,Office Supplies,Accessories,Product B,428.01,1,0.27,-18.76
+ORD-1202,2022-07-22,2022-07-24,First Class,CUST-112,Robert Brown,Consumer,United States,Houston,Washington,76810,Central,PROD-202,Technology,Chairs,Product D,40.49,4,0.45,223.91
+ORD-1203,2022-07-23,2022-07-25,Standard Class,CUST-117,John Smith,Home Office,United States,Chicago,New York,23211,East,PROD-203,Furniture,Binders,Product B,599.5,4,0.23,82.6
+ORD-1204,2022-07-24,2022-07-26,Second Class,CUST-171,Jane Doe,Consumer,United States,Houston,California,70047,South,PROD-204,Office Supplies,Binders,Product A,568.13,9,0.13,215.8
+ORD-1205,2022-07-25,2022-07-27,Second Class,CUST-191,Alice Johnson,Corporate,United States,Chicago,Texas,17179,West,PROD-205,Furniture,Binders,Product B,604.8,6,0.46,-136.78
+ORD-1206,2022-07-26,2022-07-28,Second Class,CUST-107,Alice Johnson,Corporate,United States,Chicago,Texas,62851,South,PROD-206,Furniture,Phones,Product B,329.62,9,0.23,62.93
+ORD-1207,2022-07-27,2022-07-29,Standard Class,CUST-183,Robert Brown,Corporate,United States,Houston,Illinois,67909,East,PROD-207,Office Supplies,Binders,Product B,559.33,1,0.26,139.62
+ORD-1208,2022-07-28,2022-07-30,Second Class,CUST-156,Jane Doe,Consumer,United States,New York,New York,56170,Central,PROD-208,Office Supplies,Binders,Product A,179.94,3,0.39,295.19
+ORD-1209,2022-07-29,2022-07-31,Second Class,CUST-151,Jane Doe,Consumer,United States,Los Angeles,Washington,97855,West,PROD-209,Office Supplies,Binders,Product C,653.36,3,0.43,280.9
+ORD-1210,2022-07-30,2022-08-01,First Class,CUST-132,Jane Doe,Home Office,United States,Los Angeles,California,39551,East,PROD-210,Office Supplies,Phones,Product A,80.96,6,0.38,279.38
+ORD-1211,2022-07-31,2022-08-02,Standard Class,CUST-176,Alice Johnson,Home Office,United States,Houston,Texas,84998,East,PROD-211,Technology,Phones,Product D,876.33,5,0.19,140.6
+ORD-1212,2022-08-01,2022-08-03,First Class,CUST-162,John Smith,Consumer,United States,Chicago,Washington,39528,Central,PROD-212,Office Supplies,Phones,Product D,223.98,1,0.4,292.04
+ORD-1213,2022-08-02,2022-08-04,Same Day,CUST-151,Robert Brown,Consumer,United States,New York,Texas,15021,Central,PROD-213,Furniture,Tables,Product C,300.91,1,0.25,286.98
+ORD-1214,2022-08-03,2022-08-05,Second Class,CUST-196,Robert Brown,Corporate,United States,Los Angeles,Texas,26211,Central,PROD-214,Furniture,Accessories,Product B,885.89,5,0.04,95.34
+ORD-1215,2022-08-04,2022-08-06,First Class,CUST-130,Jane Doe,Consumer,United States,Chicago,Texas,49346,Central,PROD-215,Office Supplies,Binders,Product A,884.76,4,0.42,-43.18
+ORD-1216,2022-08-05,2022-08-07,Second Class,CUST-122,John Smith,Home Office,United States,Los Angeles,Washington,92685,South,PROD-216,Technology,Binders,Product C,837.9,9,0.27,-144.33
+ORD-1217,2022-08-06,2022-08-08,Second Class,CUST-105,Jane Doe,Consumer,United States,Los Angeles,California,15957,West,PROD-217,Office Supplies,Tables,Product A,333.67,4,0.22,112.08
+ORD-1218,2022-08-07,2022-08-09,Same Day,CUST-191,John Smith,Consumer,United States,New York,Illinois,55222,West,PROD-218,Office Supplies,Accessories,Product D,903.32,5,0.07,-49.08
+ORD-1219,2022-08-08,2022-08-10,First Class,CUST-195,Alice Johnson,Consumer,United States,Seattle,Texas,91482,West,PROD-219,Technology,Tables,Product D,774.08,4,0.0,-5.81
+ORD-1220,2022-08-09,2022-08-11,Second Class,CUST-122,John Smith,Home Office,United States,Seattle,Illinois,31983,Central,PROD-220,Furniture,Phones,Product B,661.5,9,0.49,267.97
+ORD-1221,2022-08-10,2022-08-12,Same Day,CUST-176,Robert Brown,Home Office,United States,New York,Illinois,57109,South,PROD-221,Office Supplies,Tables,Product D,900.81,9,0.3,-161.97
+ORD-1222,2022-08-11,2022-08-13,Second Class,CUST-122,Alice Johnson,Consumer,United States,Seattle,Texas,14155,South,PROD-222,Furniture,Tables,Product A,785.3,4,0.28,52.73
+ORD-1223,2022-08-12,2022-08-14,Second Class,CUST-118,Robert Brown,Consumer,United States,New York,Texas,45723,West,PROD-223,Technology,Accessories,Product A,430.5,3,0.49,-76.22
+ORD-1224,2022-08-13,2022-08-15,Standard Class,CUST-193,Robert Brown,Consumer,United States,Houston,California,18956,South,PROD-224,Office Supplies,Phones,Product B,331.01,7,0.35,-57.54
+ORD-1225,2022-08-14,2022-08-16,Second Class,CUST-129,Jane Doe,Home Office,United States,Los Angeles,Illinois,35323,Central,PROD-225,Furniture,Tables,Product B,399.94,1,0.3,171.52
+ORD-1226,2022-08-15,2022-08-17,First Class,CUST-118,Jane Doe,Corporate,United States,New York,Illinois,37171,Central,PROD-226,Office Supplies,Chairs,Product A,70.8,4,0.2,-95.74
+ORD-1227,2022-08-16,2022-08-18,First Class,CUST-152,Robert Brown,Corporate,United States,Seattle,California,50319,West,PROD-227,Office Supplies,Phones,Product D,369.8,6,0.45,-91.08
+ORD-1228,2022-08-17,2022-08-19,Same Day,CUST-131,Alice Johnson,Consumer,United States,New York,New York,83523,Central,PROD-228,Technology,Chairs,Product C,359.51,9,0.31,152.92
+ORD-1229,2022-08-18,2022-08-20,Standard Class,CUST-149,Alice Johnson,Corporate,United States,Los Angeles,Illinois,32484,South,PROD-229,Office Supplies,Tables,Product C,866.97,6,0.06,154.64
+ORD-1230,2022-08-19,2022-08-21,Second Class,CUST-198,Robert Brown,Consumer,United States,Seattle,Washington,42585,Central,PROD-230,Office Supplies,Phones,Product A,889.81,7,0.03,-170.04
+ORD-1231,2022-08-20,2022-08-22,First Class,CUST-183,John Smith,Consumer,United States,Seattle,California,92165,Central,PROD-231,Furniture,Accessories,Product B,963.42,6,0.49,129.5
+ORD-1232,2022-08-21,2022-08-23,Same Day,CUST-193,John Smith,Home Office,United States,New York,New York,35356,South,PROD-232,Furniture,Chairs,Product B,334.92,5,0.12,43.62
+ORD-1233,2022-08-22,2022-08-24,Same Day,CUST-145,Robert Brown,Consumer,United States,Los Angeles,Texas,85683,East,PROD-233,Office Supplies,Tables,Product D,696.39,4,0.32,-115.99
+ORD-1234,2022-08-23,2022-08-25,First Class,CUST-151,John Smith,Home Office,United States,New York,Washington,22628,South,PROD-234,Furniture,Chairs,Product D,636.74,7,0.17,-110.94
+ORD-1235,2022-08-24,2022-08-26,Same Day,CUST-186,John Smith,Consumer,United States,Seattle,California,59649,South,PROD-235,Furniture,Accessories,Product D,250.02,5,0.35,-22.27
+ORD-1236,2022-08-25,2022-08-27,Second Class,CUST-115,Alice Johnson,Consumer,United States,New York,California,46154,West,PROD-236,Office Supplies,Phones,Product D,871.29,5,0.27,56.51
+ORD-1237,2022-08-26,2022-08-28,Standard Class,CUST-171,Alice Johnson,Consumer,United States,New York,Washington,97271,Central,PROD-237,Technology,Phones,Product C,221.96,9,0.14,26.84
+ORD-1238,2022-08-27,2022-08-29,Same Day,CUST-148,Alice Johnson,Corporate,United States,Los Angeles,Texas,75813,East,PROD-238,Office Supplies,Tables,Product D,750.24,1,0.09,162.91
+ORD-1239,2022-08-28,2022-08-30,Second Class,CUST-128,Alice Johnson,Consumer,United States,Houston,Illinois,93247,West,PROD-239,Office Supplies,Binders,Product D,153.22,3,0.22,49.18
+ORD-1240,2022-08-29,2022-08-31,Second Class,CUST-183,John Smith,Consumer,United States,New York,Washington,61015,West,PROD-240,Furniture,Accessories,Product C,115.75,2,0.24,258.17
+ORD-1241,2022-08-30,2022-09-01,First Class,CUST-127,Robert Brown,Consumer,United States,Los Angeles,California,88131,West,PROD-241,Office Supplies,Tables,Product A,723.12,6,0.3,30.27
+ORD-1242,2022-08-31,2022-09-02,Second Class,CUST-143,Robert Brown,Home Office,United States,Seattle,Washington,88915,Central,PROD-242,Technology,Phones,Product D,531.05,9,0.44,62.28
+ORD-1243,2022-09-01,2022-09-03,First Class,CUST-119,Alice Johnson,Home Office,United States,Chicago,New York,18579,Central,PROD-243,Office Supplies,Phones,Product A,448.49,3,0.12,-134.91
+ORD-1244,2022-09-02,2022-09-04,Second Class,CUST-179,Alice Johnson,Corporate,United States,Los Angeles,New York,57452,South,PROD-244,Office Supplies,Phones,Product D,780.4,1,0.06,-142.78
+ORD-1245,2022-09-03,2022-09-05,First Class,CUST-170,Robert Brown,Home Office,United States,Houston,Texas,99650,Central,PROD-245,Furniture,Chairs,Product D,365.16,4,0.43,-24.68
+ORD-1246,2022-09-04,2022-09-06,Second Class,CUST-188,Robert Brown,Consumer,United States,Seattle,Texas,79685,South,PROD-246,Technology,Chairs,Product A,854.82,7,0.05,190.51
+ORD-1247,2022-09-05,2022-09-07,Same Day,CUST-186,John Smith,Home Office,United States,Seattle,New York,22794,South,PROD-247,Furniture,Binders,Product B,962.55,4,0.22,4.76
+ORD-1248,2022-09-06,2022-09-08,Second Class,CUST-111,Jane Doe,Corporate,United States,Chicago,Washington,33511,East,PROD-248,Office Supplies,Phones,Product C,979.33,2,0.06,193.27
+ORD-1249,2022-09-07,2022-09-09,Second Class,CUST-165,Robert Brown,Home Office,United States,New York,Texas,12383,South,PROD-249,Technology,Chairs,Product B,284.85,5,0.18,144.16
+ORD-1250,2022-09-08,2022-09-10,Same Day,CUST-193,Alice Johnson,Consumer,United States,Chicago,Texas,31356,Central,PROD-250,Furniture,Tables,Product C,420.86,7,0.21,195.13
+ORD-1251,2022-09-09,2022-09-11,Second Class,CUST-115,Alice Johnson,Consumer,United States,Seattle,New York,90604,East,PROD-251,Office Supplies,Binders,Product B,727.76,3,0.18,-78.71
+ORD-1252,2022-09-10,2022-09-12,First Class,CUST-151,Robert Brown,Corporate,United States,Seattle,New York,99963,South,PROD-252,Technology,Accessories,Product C,895.92,5,0.19,-2.93
+ORD-1253,2022-09-11,2022-09-13,Standard Class,CUST-198,Alice Johnson,Home Office,United States,Houston,California,17335,South,PROD-253,Office Supplies,Binders,Product B,714.2,5,0.32,121.13
+ORD-1254,2022-09-12,2022-09-14,Second Class,CUST-186,John Smith,Corporate,United States,New York,Washington,85602,West,PROD-254,Furniture,Chairs,Product D,760.55,2,0.44,-2.19
+ORD-1255,2022-09-13,2022-09-15,Same Day,CUST-145,Jane Doe,Consumer,United States,Chicago,California,40546,Central,PROD-255,Office Supplies,Phones,Product A,884.57,6,0.38,-27.45
+ORD-1256,2022-09-14,2022-09-16,First Class,CUST-163,Alice Johnson,Consumer,United States,Houston,Illinois,37422,Central,PROD-256,Office Supplies,Chairs,Product C,373.28,9,0.02,274.44
+ORD-1257,2022-09-15,2022-09-17,First Class,CUST-142,Robert Brown,Corporate,United States,New York,Washington,47610,Central,PROD-257,Office Supplies,Accessories,Product C,547.12,2,0.34,-163.1
+ORD-1258,2022-09-16,2022-09-18,Standard Class,CUST-122,Jane Doe,Corporate,United States,Chicago,California,64357,West,PROD-258,Technology,Binders,Product C,539.42,2,0.16,97.83
+ORD-1259,2022-09-17,2022-09-19,Second Class,CUST-182,Jane Doe,Consumer,United States,Los Angeles,Texas,86008,Central,PROD-259,Furniture,Chairs,Product A,651.11,3,0.07,112.26
+ORD-1260,2022-09-18,2022-09-20,Same Day,CUST-140,Jane Doe,Consumer,United States,New York,Washington,19656,East,PROD-260,Office Supplies,Phones,Product C,896.23,6,0.01,-171.61
+ORD-1261,2022-09-19,2022-09-21,First Class,CUST-144,Alice Johnson,Home Office,United States,Houston,Texas,75577,West,PROD-261,Office Supplies,Tables,Product C,604.82,1,0.02,139.9
+ORD-1262,2022-09-20,2022-09-22,Standard Class,CUST-116,Alice Johnson,Consumer,United States,Houston,California,60220,Central,PROD-262,Furniture,Tables,Product A,970.24,9,0.3,-23.25
+ORD-1263,2022-09-21,2022-09-23,Standard Class,CUST-117,Jane Doe,Corporate,United States,Los Angeles,New York,79598,South,PROD-263,Technology,Tables,Product A,734.81,1,0.43,59.8
+ORD-1264,2022-09-22,2022-09-24,Standard Class,CUST-188,John Smith,Corporate,United States,Los Angeles,Texas,64223,Central,PROD-264,Office Supplies,Chairs,Product C,421.14,6,0.22,39.17
+ORD-1265,2022-09-23,2022-09-25,First Class,CUST-100,Alice Johnson,Consumer,United States,New York,Texas,57730,East,PROD-265,Technology,Accessories,Product C,585.33,2,0.09,171.43
+ORD-1266,2022-09-24,2022-09-26,Second Class,CUST-197,Robert Brown,Home Office,United States,Houston,New York,29953,South,PROD-266,Office Supplies,Binders,Product A,923.1,9,0.07,76.37
+ORD-1267,2022-09-25,2022-09-27,Same Day,CUST-182,Robert Brown,Consumer,United States,Houston,California,22577,East,PROD-267,Office Supplies,Chairs,Product C,622.32,7,0.46,-183.49
+ORD-1268,2022-09-26,2022-09-28,Same Day,CUST-171,John Smith,Consumer,United States,Chicago,California,13446,Central,PROD-268,Furniture,Phones,Product D,712.83,9,0.17,134.15
+ORD-1269,2022-09-27,2022-09-29,Same Day,CUST-114,Jane Doe,Home Office,United States,Los Angeles,Washington,25798,Central,PROD-269,Technology,Chairs,Product A,664.68,9,0.37,60.48
+ORD-1270,2022-09-28,2022-09-30,Second Class,CUST-136,Robert Brown,Home Office,United States,Seattle,Texas,38453,South,PROD-270,Office Supplies,Accessories,Product B,342.78,3,0.37,-185.33
+ORD-1271,2022-09-29,2022-10-01,Second Class,CUST-126,Alice Johnson,Consumer,United States,Seattle,California,19349,South,PROD-271,Office Supplies,Phones,Product A,211.3,9,0.03,144.51
+ORD-1272,2022-09-30,2022-10-02,Second Class,CUST-132,Alice Johnson,Home Office,United States,Houston,Washington,50768,Central,PROD-272,Technology,Binders,Product A,413.73,4,0.23,295.82
+ORD-1273,2022-10-01,2022-10-03,Standard Class,CUST-101,Jane Doe,Consumer,United States,New York,New York,50047,South,PROD-273,Furniture,Chairs,Product C,159.26,6,0.36,73.35
+ORD-1274,2022-10-02,2022-10-04,First Class,CUST-148,Robert Brown,Consumer,United States,Chicago,Washington,97338,East,PROD-274,Office Supplies,Accessories,Product B,828.07,7,0.1,-53.36
+ORD-1275,2022-10-03,2022-10-05,Same Day,CUST-188,Jane Doe,Consumer,United States,Los Angeles,Washington,18279,Central,PROD-275,Office Supplies,Tables,Product D,713.36,4,0.35,195.49
+ORD-1276,2022-10-04,2022-10-06,First Class,CUST-122,Alice Johnson,Consumer,United States,Chicago,Texas,13884,South,PROD-276,Office Supplies,Chairs,Product C,407.05,6,0.33,-191.67
+ORD-1277,2022-10-05,2022-10-07,Standard Class,CUST-134,John Smith,Home Office,United States,Chicago,California,78314,Central,PROD-277,Office Supplies,Accessories,Product A,179.67,1,0.32,21.71
+ORD-1278,2022-10-06,2022-10-08,First Class,CUST-194,Robert Brown,Home Office,United States,Seattle,Texas,99898,East,PROD-278,Office Supplies,Tables,Product D,877.04,5,0.48,60.56
+ORD-1279,2022-10-07,2022-10-09,Second Class,CUST-121,John Smith,Consumer,United States,Los Angeles,Washington,44941,Central,PROD-279,Technology,Phones,Product D,642.67,7,0.27,50.47
+ORD-1280,2022-10-08,2022-10-10,First Class,CUST-168,Jane Doe,Corporate,United States,Chicago,Illinois,42948,South,PROD-280,Office Supplies,Tables,Product A,996.64,8,0.09,-22.79
+ORD-1281,2022-10-09,2022-10-11,Same Day,CUST-167,Jane Doe,Corporate,United States,Chicago,New York,65384,West,PROD-281,Furniture,Accessories,Product C,110.09,5,0.04,-76.12
+ORD-1282,2022-10-10,2022-10-12,Standard Class,CUST-148,Alice Johnson,Corporate,United States,Chicago,Illinois,28256,West,PROD-282,Office Supplies,Phones,Product A,252.4,2,0.2,11.63
+ORD-1283,2022-10-11,2022-10-13,Same Day,CUST-118,Alice Johnson,Home Office,United States,Los Angeles,Texas,45586,West,PROD-283,Office Supplies,Phones,Product B,92.82,8,0.22,253.09
+ORD-1284,2022-10-12,2022-10-14,First Class,CUST-197,John Smith,Home Office,United States,New York,California,60554,West,PROD-284,Technology,Tables,Product A,747.29,3,0.25,-62.52
+ORD-1285,2022-10-13,2022-10-15,Standard Class,CUST-111,Robert Brown,Corporate,United States,Seattle,Illinois,25424,West,PROD-285,Technology,Chairs,Product B,167.98,3,0.25,110.25
+ORD-1286,2022-10-14,2022-10-16,Standard Class,CUST-111,John Smith,Corporate,United States,New York,New York,27993,Central,PROD-286,Office Supplies,Binders,Product D,882.84,5,0.46,4.33
+ORD-1287,2022-10-15,2022-10-17,First Class,CUST-152,Alice Johnson,Consumer,United States,Seattle,New York,79221,East,PROD-287,Furniture,Tables,Product A,496.56,9,0.41,-143.8
+ORD-1288,2022-10-16,2022-10-18,Second Class,CUST-176,Jane Doe,Home Office,United States,Los Angeles,Texas,40719,Central,PROD-288,Office Supplies,Chairs,Product B,530.91,6,0.37,-44.6
+ORD-1289,2022-10-17,2022-10-19,Same Day,CUST-168,Alice Johnson,Corporate,United States,Los Angeles,New York,73409,South,PROD-289,Technology,Binders,Product A,52.1,6,0.49,-117.15
+ORD-1290,2022-10-18,2022-10-20,First Class,CUST-145,Robert Brown,Corporate,United States,Houston,California,69039,South,PROD-290,Furniture,Chairs,Product D,617.91,6,0.06,289.78
+ORD-1291,2022-10-19,2022-10-21,First Class,CUST-164,Robert Brown,Corporate,United States,Chicago,Illinois,63791,West,PROD-291,Technology,Phones,Product C,235.34,3,0.39,-189.5
+ORD-1292,2022-10-20,2022-10-22,First Class,CUST-189,John Smith,Corporate,United States,New York,New York,42681,South,PROD-292,Technology,Chairs,Product A,221.37,1,0.1,156.03
+ORD-1293,2022-10-21,2022-10-23,Second Class,CUST-140,Alice Johnson,Corporate,United States,Houston,California,76855,South,PROD-293,Furniture,Phones,Product D,896.37,9,0.12,-125.55
+ORD-1294,2022-10-22,2022-10-24,Standard Class,CUST-107,Jane Doe,Home Office,United States,Seattle,Illinois,26398,East,PROD-294,Furniture,Phones,Product D,889.13,6,0.4,38.5
+ORD-1295,2022-10-23,2022-10-25,Same Day,CUST-107,Alice Johnson,Home Office,United States,Houston,New York,58130,East,PROD-295,Furniture,Chairs,Product C,15.21,5,0.14,32.54
+ORD-1296,2022-10-24,2022-10-26,Second Class,CUST-133,John Smith,Corporate,United States,New York,Texas,82739,South,PROD-296,Furniture,Phones,Product D,833.98,3,0.44,146.52
+ORD-1297,2022-10-25,2022-10-27,First Class,CUST-158,Alice Johnson,Corporate,United States,Chicago,Illinois,25219,East,PROD-297,Technology,Chairs,Product C,903.28,6,0.09,29.32
+ORD-1298,2022-10-26,2022-10-28,First Class,CUST-107,Alice Johnson,Home Office,United States,Chicago,Texas,21186,Central,PROD-298,Furniture,Tables,Product D,516.83,7,0.17,214.93
+ORD-1299,2022-10-27,2022-10-29,Same Day,CUST-134,John Smith,Consumer,United States,Los Angeles,Texas,44549,South,PROD-299,Office Supplies,Accessories,Product D,659.61,5,0.1,175.16
+ORD-1300,2022-10-28,2022-10-30,First Class,CUST-104,Alice Johnson,Consumer,United States,Chicago,New York,86176,South,PROD-300,Technology,Tables,Product C,770.11,1,0.42,-154.85
+ORD-1301,2022-10-29,2022-10-31,Second Class,CUST-105,John Smith,Corporate,United States,Chicago,Washington,85125,Central,PROD-301,Furniture,Accessories,Product C,688.59,5,0.41,-74.07
+ORD-1302,2022-10-30,2022-11-01,Standard Class,CUST-161,Alice Johnson,Consumer,United States,Chicago,Washington,99939,Central,PROD-302,Furniture,Binders,Product D,464.53,2,0.05,145.18
+ORD-1303,2022-10-31,2022-11-02,First Class,CUST-150,John Smith,Home Office,United States,New York,Washington,29941,Central,PROD-303,Office Supplies,Accessories,Product C,577.72,6,0.18,-41.14
+ORD-1304,2022-11-01,2022-11-03,First Class,CUST-176,Jane Doe,Corporate,United States,Los Angeles,Illinois,41083,Central,PROD-304,Furniture,Binders,Product B,578.32,1,0.31,172.23
+ORD-1305,2022-11-02,2022-11-04,Same Day,CUST-145,Alice Johnson,Corporate,United States,Los Angeles,New York,24502,Central,PROD-305,Technology,Tables,Product A,843.71,8,0.12,198.44
+ORD-1306,2022-11-03,2022-11-05,Standard Class,CUST-196,Alice Johnson,Consumer,United States,Houston,Illinois,65767,West,PROD-306,Office Supplies,Tables,Product C,248.04,1,0.33,-173.39
+ORD-1307,2022-11-04,2022-11-06,Same Day,CUST-121,John Smith,Consumer,United States,Los Angeles,Washington,56096,East,PROD-307,Technology,Accessories,Product D,759.65,3,0.35,142.25
+ORD-1308,2022-11-05,2022-11-07,Standard Class,CUST-192,Robert Brown,Consumer,United States,Seattle,New York,34760,Central,PROD-308,Furniture,Accessories,Product C,814.21,7,0.12,-25.76
+ORD-1309,2022-11-06,2022-11-08,Same Day,CUST-171,John Smith,Home Office,United States,Seattle,California,85002,Central,PROD-309,Office Supplies,Tables,Product C,799.06,3,0.33,-86.71
+ORD-1310,2022-11-07,2022-11-09,Same Day,CUST-192,John Smith,Consumer,United States,Los Angeles,Illinois,20889,East,PROD-310,Furniture,Accessories,Product B,809.63,2,0.09,-176.65
+ORD-1311,2022-11-08,2022-11-10,Same Day,CUST-125,Robert Brown,Consumer,United States,New York,Texas,82403,East,PROD-311,Office Supplies,Tables,Product B,830.99,1,0.43,134.76
+ORD-1312,2022-11-09,2022-11-11,Standard Class,CUST-197,John Smith,Home Office,United States,Houston,Texas,38158,West,PROD-312,Office Supplies,Accessories,Product D,423.34,1,0.46,78.22
+ORD-1313,2022-11-10,2022-11-12,Same Day,CUST-101,John Smith,Home Office,United States,Houston,New York,62738,South,PROD-313,Technology,Binders,Product D,621.71,2,0.48,133.25
+ORD-1314,2022-11-11,2022-11-13,Standard Class,CUST-113,Jane Doe,Consumer,United States,Seattle,Texas,55094,West,PROD-314,Technology,Tables,Product A,757.69,6,0.1,218.52
+ORD-1315,2022-11-12,2022-11-14,Same Day,CUST-138,Jane Doe,Home Office,United States,New York,Texas,34990,South,PROD-315,Technology,Chairs,Product B,772.07,1,0.16,71.82
+ORD-1316,2022-11-13,2022-11-15,Same Day,CUST-185,John Smith,Home Office,United States,Seattle,Texas,52326,Central,PROD-316,Technology,Binders,Product C,959.02,6,0.36,43.02
+ORD-1317,2022-11-14,2022-11-16,Second Class,CUST-127,Robert Brown,Consumer,United States,Los Angeles,Texas,88841,West,PROD-317,Furniture,Accessories,Product A,975.32,5,0.49,149.38
+ORD-1318,2022-11-15,2022-11-17,Same Day,CUST-138,Jane Doe,Home Office,United States,Los Angeles,California,22446,West,PROD-318,Office Supplies,Tables,Product C,569.09,5,0.37,-68.83
+ORD-1319,2022-11-16,2022-11-18,Standard Class,CUST-184,Robert Brown,Home Office,United States,Houston,California,62772,West,PROD-319,Office Supplies,Binders,Product C,471.08,9,0.16,-85.81
+ORD-1320,2022-11-17,2022-11-19,First Class,CUST-133,Robert Brown,Corporate,United States,New York,California,94344,South,PROD-320,Technology,Phones,Product D,837.17,3,0.3,243.03
+ORD-1321,2022-11-18,2022-11-20,Same Day,CUST-101,Alice Johnson,Home Office,United States,New York,California,18597,West,PROD-321,Office Supplies,Accessories,Product D,227.76,9,0.41,79.48
+ORD-1322,2022-11-19,2022-11-21,Standard Class,CUST-131,Jane Doe,Home Office,United States,New York,Texas,32748,South,PROD-322,Technology,Tables,Product B,768.73,9,0.01,-78.89
+ORD-1323,2022-11-20,2022-11-22,First Class,CUST-138,Alice Johnson,Home Office,United States,New York,Illinois,22873,Central,PROD-323,Furniture,Phones,Product A,200.09,5,0.15,298.32
+ORD-1324,2022-11-21,2022-11-23,First Class,CUST-128,Robert Brown,Corporate,United States,New York,Washington,34876,Central,PROD-324,Office Supplies,Tables,Product D,595.71,1,0.31,-118.94
+ORD-1325,2022-11-22,2022-11-24,First Class,CUST-175,John Smith,Corporate,United States,Seattle,California,52818,West,PROD-325,Office Supplies,Binders,Product D,610.76,1,0.45,81.13
+ORD-1326,2022-11-23,2022-11-25,Same Day,CUST-199,Robert Brown,Corporate,United States,Seattle,California,71483,Central,PROD-326,Technology,Accessories,Product D,447.43,2,0.44,198.29
+ORD-1327,2022-11-24,2022-11-26,Same Day,CUST-131,Jane Doe,Corporate,United States,Seattle,Washington,30592,East,PROD-327,Furniture,Tables,Product A,865.91,4,0.5,-30.1
+ORD-1328,2022-11-25,2022-11-27,First Class,CUST-151,John Smith,Consumer,United States,Chicago,California,63863,West,PROD-328,Technology,Phones,Product A,548.05,4,0.31,-80.13
+ORD-1329,2022-11-26,2022-11-28,Same Day,CUST-166,John Smith,Corporate,United States,Seattle,New York,70143,West,PROD-329,Furniture,Phones,Product A,497.8,2,0.15,-175.75
+ORD-1330,2022-11-27,2022-11-29,Second Class,CUST-167,Jane Doe,Corporate,United States,Los Angeles,California,92706,East,PROD-330,Technology,Chairs,Product D,423.94,4,0.2,18.07
+ORD-1331,2022-11-28,2022-11-30,Standard Class,CUST-132,John Smith,Consumer,United States,Chicago,New York,56704,Central,PROD-331,Technology,Binders,Product D,71.6,6,0.44,41.71
+ORD-1332,2022-11-29,2022-12-01,Standard Class,CUST-174,Robert Brown,Consumer,United States,Chicago,Illinois,15069,West,PROD-332,Technology,Accessories,Product D,368.53,7,0.39,-184.47
+ORD-1333,2022-11-30,2022-12-02,Same Day,CUST-132,Jane Doe,Home Office,United States,Seattle,California,38055,Central,PROD-333,Office Supplies,Tables,Product C,101.89,9,0.14,115.4
+ORD-1334,2022-12-01,2022-12-03,Same Day,CUST-197,Jane Doe,Corporate,United States,Los Angeles,New York,58868,Central,PROD-334,Technology,Accessories,Product A,569.98,2,0.45,210.71
+ORD-1335,2022-12-02,2022-12-04,Second Class,CUST-105,John Smith,Corporate,United States,Chicago,New York,21406,East,PROD-335,Office Supplies,Accessories,Product D,644.1,8,0.36,287.42
+ORD-1336,2022-12-03,2022-12-05,Same Day,CUST-100,Alice Johnson,Consumer,United States,Houston,Washington,72024,East,PROD-336,Technology,Tables,Product A,770.1,9,0.06,-116.09
+ORD-1337,2022-12-04,2022-12-06,Same Day,CUST-137,John Smith,Consumer,United States,Houston,Texas,31925,East,PROD-337,Furniture,Chairs,Product D,636.21,2,0.31,145.27
+ORD-1338,2022-12-05,2022-12-07,Second Class,CUST-172,Jane Doe,Corporate,United States,New York,California,46313,East,PROD-338,Technology,Accessories,Product C,195.19,6,0.04,-160.36
+ORD-1339,2022-12-06,2022-12-08,Same Day,CUST-143,Alice Johnson,Home Office,United States,Chicago,Illinois,14263,Central,PROD-339,Technology,Binders,Product C,752.74,5,0.0,194.59
+ORD-1340,2022-12-07,2022-12-09,First Class,CUST-124,Jane Doe,Home Office,United States,New York,Illinois,30465,Central,PROD-340,Technology,Phones,Product B,553.37,2,0.42,-191.16
+ORD-1341,2022-12-08,2022-12-10,Standard Class,CUST-116,Robert Brown,Home Office,United States,Los Angeles,Illinois,77873,East,PROD-341,Technology,Tables,Product A,111.15,2,0.17,131.8
+ORD-1342,2022-12-09,2022-12-11,Standard Class,CUST-196,Alice Johnson,Consumer,United States,Chicago,New York,42330,West,PROD-342,Office Supplies,Tables,Product D,34.58,4,0.11,233.13
+ORD-1343,2022-12-10,2022-12-12,Standard Class,CUST-196,Robert Brown,Home Office,United States,New York,Washington,64803,Central,PROD-343,Office Supplies,Binders,Product D,305.76,5,0.06,-162.91
+ORD-1344,2022-12-11,2022-12-13,First Class,CUST-141,John Smith,Home Office,United States,Houston,Texas,91005,East,PROD-344,Technology,Chairs,Product A,693.11,8,0.37,-53.14
+ORD-1345,2022-12-12,2022-12-14,Standard Class,CUST-124,Robert Brown,Consumer,United States,Los Angeles,California,82157,West,PROD-345,Furniture,Binders,Product B,933.46,4,0.28,-117.73
+ORD-1346,2022-12-13,2022-12-15,Standard Class,CUST-121,Robert Brown,Consumer,United States,Los Angeles,Texas,83724,South,PROD-346,Technology,Phones,Product D,966.83,4,0.42,76.58
+ORD-1347,2022-12-14,2022-12-16,Second Class,CUST-127,Robert Brown,Consumer,United States,Los Angeles,Illinois,90805,South,PROD-347,Furniture,Binders,Product B,766.9,4,0.25,108.41
+ORD-1348,2022-12-15,2022-12-17,First Class,CUST-146,John Smith,Consumer,United States,Houston,Washington,94840,Central,PROD-348,Office Supplies,Chairs,Product B,300.32,1,0.32,-131.78
+ORD-1349,2022-12-16,2022-12-18,First Class,CUST-135,Jane Doe,Corporate,United States,Los Angeles,California,47849,South,PROD-349,Office Supplies,Tables,Product C,625.85,7,0.36,269.14
+ORD-1350,2022-12-17,2022-12-19,First Class,CUST-162,John Smith,Consumer,United States,Chicago,Illinois,90268,South,PROD-350,Office Supplies,Accessories,Product A,238.79,5,0.32,-179.05
+ORD-1351,2022-12-18,2022-12-20,First Class,CUST-168,John Smith,Corporate,United States,Seattle,Illinois,82938,Central,PROD-351,Technology,Phones,Product D,753.18,5,0.24,74.25
+ORD-1352,2022-12-19,2022-12-21,Standard Class,CUST-162,Alice Johnson,Home Office,United States,Los Angeles,Washington,17521,Central,PROD-352,Technology,Chairs,Product B,174.21,8,0.27,-136.61
+ORD-1353,2022-12-20,2022-12-22,Second Class,CUST-132,Robert Brown,Consumer,United States,Seattle,Washington,62352,East,PROD-353,Office Supplies,Binders,Product A,758.91,6,0.28,277.94
+ORD-1354,2022-12-21,2022-12-23,Same Day,CUST-145,John Smith,Home Office,United States,Seattle,New York,24053,East,PROD-354,Office Supplies,Chairs,Product C,869.9,4,0.07,-170.15
+ORD-1355,2022-12-22,2022-12-24,Same Day,CUST-188,Robert Brown,Home Office,United States,Seattle,New York,19647,South,PROD-355,Furniture,Accessories,Product D,524.31,4,0.27,169.25
+ORD-1356,2022-12-23,2022-12-25,Second Class,CUST-142,Robert Brown,Consumer,United States,Chicago,New York,31115,South,PROD-356,Technology,Chairs,Product A,74.98,8,0.27,17.87
+ORD-1357,2022-12-24,2022-12-26,First Class,CUST-157,Robert Brown,Home Office,United States,Los Angeles,California,91912,West,PROD-357,Technology,Tables,Product C,454.4,3,0.22,147.83
+ORD-1358,2022-12-25,2022-12-27,Standard Class,CUST-125,John Smith,Corporate,United States,Houston,California,18722,West,PROD-358,Technology,Phones,Product A,839.45,2,0.08,-135.76
+ORD-1359,2022-12-26,2022-12-28,Standard Class,CUST-132,John Smith,Corporate,United States,Houston,New York,63627,Central,PROD-359,Office Supplies,Binders,Product B,187.96,9,0.37,-118.88
+ORD-1360,2022-12-27,2022-12-29,Second Class,CUST-133,John Smith,Home Office,United States,Houston,New York,84085,East,PROD-360,Technology,Accessories,Product A,48.17,4,0.28,292.06
+ORD-1361,2022-12-28,2022-12-30,Standard Class,CUST-106,Alice Johnson,Home Office,United States,Chicago,New York,31699,East,PROD-361,Office Supplies,Binders,Product D,735.37,5,0.31,14.9
+ORD-1362,2022-12-29,2022-12-31,Second Class,CUST-165,Alice Johnson,Home Office,United States,Houston,Texas,50386,East,PROD-362,Technology,Chairs,Product B,567.41,7,0.49,-35.9
+ORD-1363,2022-12-30,2023-01-01,Standard Class,CUST-151,Robert Brown,Corporate,United States,Los Angeles,Washington,36219,West,PROD-363,Office Supplies,Binders,Product C,51.64,8,0.24,-92.36
+ORD-1364,2022-12-31,2023-01-02,Second Class,CUST-131,John Smith,Corporate,United States,Los Angeles,California,15706,West,PROD-364,Furniture,Accessories,Product A,985.04,8,0.46,-129.56
+ORD-1365,2023-01-01,2023-01-03,Standard Class,CUST-107,Robert Brown,Home Office,United States,New York,Illinois,66133,Central,PROD-365,Office Supplies,Tables,Product A,573.64,4,0.03,-184.93
+ORD-1366,2023-01-02,2023-01-04,First Class,CUST-113,John Smith,Home Office,United States,Seattle,Washington,46023,Central,PROD-366,Office Supplies,Accessories,Product D,589.31,2,0.12,86.86
+ORD-1367,2023-01-03,2023-01-05,First Class,CUST-103,Alice Johnson,Home Office,United States,Seattle,Illinois,36689,West,PROD-367,Furniture,Phones,Product B,792.01,5,0.24,-92.62
+ORD-1368,2023-01-04,2023-01-06,Standard Class,CUST-128,Alice Johnson,Consumer,United States,Houston,Texas,25057,East,PROD-368,Technology,Binders,Product C,903.61,5,0.22,125.79
+ORD-1369,2023-01-05,2023-01-07,Standard Class,CUST-115,Alice Johnson,Home Office,United States,Los Angeles,Washington,47484,Central,PROD-369,Technology,Phones,Product D,70.14,8,0.28,-21.7
+ORD-1370,2023-01-06,2023-01-08,First Class,CUST-129,John Smith,Corporate,United States,Los Angeles,Washington,76025,East,PROD-370,Office Supplies,Phones,Product A,355.03,2,0.48,-183.77
+ORD-1371,2023-01-07,2023-01-09,Second Class,CUST-166,Jane Doe,Corporate,United States,Seattle,New York,78914,South,PROD-371,Office Supplies,Tables,Product B,208.09,2,0.06,89.45
+ORD-1372,2023-01-08,2023-01-10,Standard Class,CUST-161,Alice Johnson,Corporate,United States,Los Angeles,California,83904,East,PROD-372,Furniture,Phones,Product C,470.5,7,0.29,-130.54
+ORD-1373,2023-01-09,2023-01-11,First Class,CUST-183,Robert Brown,Corporate,United States,Los Angeles,Texas,54150,Central,PROD-373,Technology,Accessories,Product B,100.55,2,0.44,-56.47
+ORD-1374,2023-01-10,2023-01-12,Standard Class,CUST-196,John Smith,Consumer,United States,Los Angeles,New York,95042,Central,PROD-374,Office Supplies,Binders,Product A,77.4,8,0.09,28.77
+ORD-1375,2023-01-11,2023-01-13,Same Day,CUST-158,Alice Johnson,Consumer,United States,Chicago,California,16310,West,PROD-375,Furniture,Binders,Product A,307.88,5,0.16,-153.57
+ORD-1376,2023-01-12,2023-01-14,First Class,CUST-182,Alice Johnson,Consumer,United States,Chicago,Illinois,40346,Central,PROD-376,Technology,Phones,Product D,905.3,3,0.13,161.41
+ORD-1377,2023-01-13,2023-01-15,Same Day,CUST-134,Robert Brown,Home Office,United States,Houston,Illinois,51694,East,PROD-377,Technology,Chairs,Product C,975.79,9,0.14,16.75
+ORD-1378,2023-01-14,2023-01-16,Second Class,CUST-130,Jane Doe,Home Office,United States,New York,New York,98309,West,PROD-378,Furniture,Chairs,Product B,766.08,6,0.34,-158.85
+ORD-1379,2023-01-15,2023-01-17,First Class,CUST-157,Alice Johnson,Consumer,United States,Chicago,Illinois,15784,Central,PROD-379,Office Supplies,Binders,Product A,10.73,1,0.43,76.25
+ORD-1380,2023-01-16,2023-01-18,First Class,CUST-196,Robert Brown,Corporate,United States,Chicago,New York,43975,South,PROD-380,Furniture,Phones,Product C,737.86,9,0.02,-157.94
+ORD-1381,2023-01-17,2023-01-19,Same Day,CUST-149,Jane Doe,Home Office,United States,Houston,Illinois,88848,East,PROD-381,Furniture,Chairs,Product B,31.77,3,0.37,186.26
+ORD-1382,2023-01-18,2023-01-20,Same Day,CUST-146,John Smith,Consumer,United States,Los Angeles,Texas,79085,East,PROD-382,Furniture,Phones,Product B,176.88,7,0.13,175.29
+ORD-1383,2023-01-19,2023-01-21,Standard Class,CUST-183,Alice Johnson,Home Office,United States,New York,California,18415,South,PROD-383,Technology,Phones,Product C,20.41,5,0.04,-78.85
+ORD-1384,2023-01-20,2023-01-22,Same Day,CUST-141,Jane Doe,Corporate,United States,New York,Illinois,30934,East,PROD-384,Office Supplies,Binders,Product A,157.64,6,0.41,-45.98
+ORD-1385,2023-01-21,2023-01-23,First Class,CUST-120,Alice Johnson,Consumer,United States,Chicago,Washington,75975,West,PROD-385,Furniture,Accessories,Product C,690.63,1,0.41,71.2
+ORD-1386,2023-01-22,2023-01-24,Same Day,CUST-140,John Smith,Home Office,United States,Seattle,Illinois,87280,Central,PROD-386,Technology,Phones,Product D,705.0,4,0.27,47.06
+ORD-1387,2023-01-23,2023-01-25,Standard Class,CUST-150,Alice Johnson,Consumer,United States,Houston,Illinois,79937,West,PROD-387,Furniture,Phones,Product B,377.37,5,0.41,68.59
+ORD-1388,2023-01-24,2023-01-26,Same Day,CUST-104,John Smith,Consumer,United States,New York,New York,37959,East,PROD-388,Office Supplies,Accessories,Product A,733.88,6,0.17,234.17
+ORD-1389,2023-01-25,2023-01-27,Second Class,CUST-109,Alice Johnson,Consumer,United States,Chicago,Washington,18966,West,PROD-389,Technology,Tables,Product A,848.83,7,0.38,256.05
+ORD-1390,2023-01-26,2023-01-28,Standard Class,CUST-100,Jane Doe,Corporate,United States,Seattle,Washington,33837,East,PROD-390,Technology,Phones,Product C,139.05,4,0.19,34.36
+ORD-1391,2023-01-27,2023-01-29,First Class,CUST-190,John Smith,Home Office,United States,Seattle,New York,96121,East,PROD-391,Office Supplies,Tables,Product A,96.53,8,0.36,116.7
+ORD-1392,2023-01-28,2023-01-30,Same Day,CUST-121,Jane Doe,Home Office,United States,Seattle,Illinois,77549,Central,PROD-392,Office Supplies,Phones,Product B,378.2,9,0.06,277.33
+ORD-1393,2023-01-29,2023-01-31,First Class,CUST-174,John Smith,Consumer,United States,New York,Texas,11486,West,PROD-393,Office Supplies,Binders,Product B,409.84,6,0.47,78.45
+ORD-1394,2023-01-30,2023-02-01,First Class,CUST-121,Robert Brown,Consumer,United States,Houston,Washington,31395,East,PROD-394,Technology,Chairs,Product A,283.64,6,0.19,106.62
+ORD-1395,2023-01-31,2023-02-02,First Class,CUST-133,John Smith,Consumer,United States,Houston,Washington,32990,Central,PROD-395,Office Supplies,Tables,Product B,756.63,9,0.37,-89.14
+ORD-1396,2023-02-01,2023-02-03,Standard Class,CUST-138,Alice Johnson,Home Office,United States,New York,Texas,64313,East,PROD-396,Office Supplies,Binders,Product D,328.57,2,0.4,148.01
+ORD-1397,2023-02-02,2023-02-04,Standard Class,CUST-137,Alice Johnson,Consumer,United States,Chicago,Texas,21367,East,PROD-397,Office Supplies,Phones,Product C,802.14,1,0.38,285.16
+ORD-1398,2023-02-03,2023-02-05,Same Day,CUST-143,Alice Johnson,Corporate,United States,New York,California,70440,Central,PROD-398,Furniture,Tables,Product D,912.2,2,0.45,53.79
+ORD-1399,2023-02-04,2023-02-06,Same Day,CUST-133,John Smith,Home Office,United States,Seattle,Illinois,17897,South,PROD-399,Furniture,Phones,Product A,518.02,2,0.07,-32.14
+ORD-1400,2023-02-05,2023-02-07,First Class,CUST-195,Alice Johnson,Consumer,United States,Houston,Illinois,82901,East,PROD-400,Technology,Chairs,Product C,435.13,5,0.16,45.21
+ORD-1401,2023-02-06,2023-02-08,Standard Class,CUST-141,Alice Johnson,Consumer,United States,Seattle,New York,15263,Central,PROD-401,Office Supplies,Binders,Product B,100.68,6,0.02,84.21
+ORD-1402,2023-02-07,2023-02-09,Second Class,CUST-171,Jane Doe,Consumer,United States,New York,Illinois,29502,East,PROD-402,Furniture,Phones,Product C,280.94,8,0.1,-71.19
+ORD-1403,2023-02-08,2023-02-10,Same Day,CUST-169,Jane Doe,Home Office,United States,Seattle,Texas,16045,West,PROD-403,Office Supplies,Tables,Product B,887.78,5,0.17,219.73
+ORD-1404,2023-02-09,2023-02-11,Second Class,CUST-170,Jane Doe,Corporate,United States,Chicago,New York,10812,South,PROD-404,Technology,Binders,Product C,253.48,7,0.18,40.95
+ORD-1405,2023-02-10,2023-02-12,Second Class,CUST-123,John Smith,Corporate,United States,New York,New York,77347,Central,PROD-405,Technology,Chairs,Product A,624.98,8,0.08,229.94
+ORD-1406,2023-02-11,2023-02-13,First Class,CUST-186,Alice Johnson,Corporate,United States,Houston,Illinois,18787,Central,PROD-406,Office Supplies,Accessories,Product A,500.06,4,0.03,15.01
+ORD-1407,2023-02-12,2023-02-14,Second Class,CUST-139,John Smith,Consumer,United States,Seattle,Washington,55642,West,PROD-407,Technology,Accessories,Product C,103.43,3,0.34,-156.16
+ORD-1408,2023-02-13,2023-02-15,Standard Class,CUST-131,Jane Doe,Consumer,United States,New York,Texas,98911,West,PROD-408,Technology,Binders,Product D,900.37,4,0.41,-168.34
+ORD-1409,2023-02-14,2023-02-16,Second Class,CUST-137,Alice Johnson,Consumer,United States,Seattle,Texas,67214,West,PROD-409,Office Supplies,Accessories,Product C,77.09,4,0.3,2.03
+ORD-1410,2023-02-15,2023-02-17,Standard Class,CUST-138,Alice Johnson,Consumer,United States,Seattle,Texas,35388,South,PROD-410,Office Supplies,Chairs,Product D,683.9,5,0.23,-158.81
+ORD-1411,2023-02-16,2023-02-18,Standard Class,CUST-156,Robert Brown,Corporate,United States,Seattle,Washington,11779,South,PROD-411,Technology,Phones,Product C,972.28,2,0.49,107.69
+ORD-1412,2023-02-17,2023-02-19,Second Class,CUST-187,Jane Doe,Home Office,United States,Los Angeles,New York,59201,Central,PROD-412,Office Supplies,Chairs,Product D,712.28,1,0.05,292.23
+ORD-1413,2023-02-18,2023-02-20,First Class,CUST-128,Jane Doe,Corporate,United States,New York,Texas,18607,South,PROD-413,Office Supplies,Accessories,Product B,332.65,6,0.26,144.07
+ORD-1414,2023-02-19,2023-02-21,Second Class,CUST-136,Alice Johnson,Corporate,United States,Los Angeles,Illinois,93159,West,PROD-414,Furniture,Phones,Product D,82.71,3,0.35,-25.47
+ORD-1415,2023-02-20,2023-02-22,Standard Class,CUST-166,Alice Johnson,Home Office,United States,Seattle,Texas,84332,West,PROD-415,Furniture,Phones,Product D,583.94,4,0.16,208.93
+ORD-1416,2023-02-21,2023-02-23,Same Day,CUST-110,Robert Brown,Home Office,United States,Seattle,Illinois,27384,Central,PROD-416,Office Supplies,Accessories,Product B,736.18,8,0.39,203.57
+ORD-1417,2023-02-22,2023-02-24,Standard Class,CUST-184,Alice Johnson,Home Office,United States,New York,Washington,15445,Central,PROD-417,Furniture,Binders,Product C,365.26,9,0.22,-95.94
+ORD-1418,2023-02-23,2023-02-25,First Class,CUST-100,Robert Brown,Home Office,United States,Chicago,New York,69104,Central,PROD-418,Furniture,Phones,Product B,657.21,8,0.43,183.86
+ORD-1419,2023-02-24,2023-02-26,First Class,CUST-116,John Smith,Corporate,United States,Seattle,Texas,83130,South,PROD-419,Furniture,Chairs,Product C,570.93,4,0.08,-180.29
+ORD-1420,2023-02-25,2023-02-27,First Class,CUST-130,Jane Doe,Consumer,United States,Chicago,Texas,53650,East,PROD-420,Furniture,Accessories,Product A,43.77,9,0.29,25.21
+ORD-1421,2023-02-26,2023-02-28,Same Day,CUST-103,Jane Doe,Home Office,United States,Houston,Illinois,62500,Central,PROD-421,Furniture,Phones,Product D,921.49,1,0.32,283.74
+ORD-1422,2023-02-27,2023-03-01,Standard Class,CUST-178,Robert Brown,Corporate,United States,Seattle,Washington,26440,Central,PROD-422,Technology,Accessories,Product C,386.21,2,0.19,167.26
+ORD-1423,2023-02-28,2023-03-02,First Class,CUST-159,Alice Johnson,Home Office,United States,Los Angeles,New York,95415,East,PROD-423,Office Supplies,Accessories,Product D,385.61,2,0.36,-58.92
+ORD-1424,2023-03-01,2023-03-03,Same Day,CUST-153,Robert Brown,Corporate,United States,Seattle,California,57653,South,PROD-424,Technology,Phones,Product D,847.89,7,0.15,107.28
+ORD-1425,2023-03-02,2023-03-04,Same Day,CUST-169,Robert Brown,Corporate,United States,Houston,Texas,48037,South,PROD-425,Technology,Binders,Product D,489.44,4,0.5,22.63
+ORD-1426,2023-03-03,2023-03-05,Same Day,CUST-149,John Smith,Consumer,United States,New York,California,15379,West,PROD-426,Furniture,Accessories,Product B,456.56,6,0.3,172.23
+ORD-1427,2023-03-04,2023-03-06,Second Class,CUST-174,Jane Doe,Corporate,United States,Seattle,California,39685,West,PROD-427,Technology,Tables,Product A,643.46,5,0.03,-38.47
+ORD-1428,2023-03-05,2023-03-07,Same Day,CUST-146,Jane Doe,Corporate,United States,New York,New York,41241,East,PROD-428,Technology,Chairs,Product D,219.65,2,0.11,5.23
+ORD-1429,2023-03-06,2023-03-08,First Class,CUST-127,Jane Doe,Home Office,United States,Seattle,Illinois,37446,Central,PROD-429,Furniture,Tables,Product D,533.02,1,0.06,-143.87
+ORD-1430,2023-03-07,2023-03-09,Standard Class,CUST-133,Alice Johnson,Home Office,United States,Seattle,California,46225,East,PROD-430,Furniture,Phones,Product C,671.88,5,0.11,-18.22
+ORD-1431,2023-03-08,2023-03-10,Standard Class,CUST-172,John Smith,Consumer,United States,Seattle,Texas,71820,West,PROD-431,Office Supplies,Phones,Product D,543.39,9,0.32,-19.76
+ORD-1432,2023-03-09,2023-03-11,Same Day,CUST-168,Robert Brown,Consumer,United States,New York,Illinois,66988,East,PROD-432,Technology,Phones,Product A,711.67,3,0.24,-46.99
+ORD-1433,2023-03-10,2023-03-12,First Class,CUST-139,Alice Johnson,Consumer,United States,Chicago,New York,75660,West,PROD-433,Technology,Binders,Product B,602.55,5,0.04,-106.27
+ORD-1434,2023-03-11,2023-03-13,Second Class,CUST-132,Jane Doe,Corporate,United States,Los Angeles,California,19455,East,PROD-434,Office Supplies,Binders,Product D,842.99,6,0.41,48.89
+ORD-1435,2023-03-12,2023-03-14,Second Class,CUST-197,John Smith,Consumer,United States,Chicago,Illinois,55251,East,PROD-435,Furniture,Phones,Product B,880.38,7,0.43,-129.65
+ORD-1436,2023-03-13,2023-03-15,Standard Class,CUST-107,John Smith,Corporate,United States,Chicago,Texas,17581,West,PROD-436,Office Supplies,Binders,Product D,106.86,4,0.36,193.29
+ORD-1437,2023-03-14,2023-03-16,Second Class,CUST-133,John Smith,Home Office,United States,Los Angeles,Illinois,59733,Central,PROD-437,Office Supplies,Accessories,Product A,266.01,6,0.28,95.69
+ORD-1438,2023-03-15,2023-03-17,Same Day,CUST-162,John Smith,Home Office,United States,Seattle,New York,10908,Central,PROD-438,Furniture,Chairs,Product A,64.11,5,0.39,215.99
+ORD-1439,2023-03-16,2023-03-18,Standard Class,CUST-114,Alice Johnson,Consumer,United States,Los Angeles,Illinois,86378,East,PROD-439,Office Supplies,Accessories,Product A,236.6,5,0.33,135.11
+ORD-1440,2023-03-17,2023-03-19,First Class,CUST-177,John Smith,Consumer,United States,Chicago,Texas,88556,East,PROD-440,Technology,Tables,Product A,723.71,5,0.5,117.83
+ORD-1441,2023-03-18,2023-03-20,Second Class,CUST-143,Alice Johnson,Corporate,United States,Seattle,Washington,55584,East,PROD-441,Technology,Binders,Product D,87.76,5,0.18,213.14
+ORD-1442,2023-03-19,2023-03-21,Second Class,CUST-161,Alice Johnson,Consumer,United States,Seattle,Washington,16539,East,PROD-442,Office Supplies,Chairs,Product D,163.57,3,0.05,114.27
+ORD-1443,2023-03-20,2023-03-22,First Class,CUST-185,John Smith,Home Office,United States,Seattle,New York,58121,East,PROD-443,Office Supplies,Tables,Product D,773.06,5,0.48,-22.64
+ORD-1444,2023-03-21,2023-03-23,Second Class,CUST-136,Jane Doe,Corporate,United States,Los Angeles,California,54524,West,PROD-444,Furniture,Accessories,Product B,449.88,8,0.29,-124.11
+ORD-1445,2023-03-22,2023-03-24,Same Day,CUST-112,Robert Brown,Consumer,United States,Chicago,Texas,26711,East,PROD-445,Office Supplies,Phones,Product A,297.22,6,0.1,-63.05
+ORD-1446,2023-03-23,2023-03-25,Same Day,CUST-153,Robert Brown,Consumer,United States,Houston,California,49390,South,PROD-446,Technology,Chairs,Product C,647.54,1,0.0,-194.81
+ORD-1447,2023-03-24,2023-03-26,Second Class,CUST-126,Jane Doe,Corporate,United States,Seattle,Texas,34472,Central,PROD-447,Technology,Binders,Product B,888.07,6,0.4,-8.99
+ORD-1448,2023-03-25,2023-03-27,Standard Class,CUST-182,Robert Brown,Corporate,United States,Chicago,Texas,95456,Central,PROD-448,Office Supplies,Chairs,Product A,47.23,5,0.25,123.57
+ORD-1449,2023-03-26,2023-03-28,Same Day,CUST-199,Alice Johnson,Corporate,United States,Los Angeles,California,89013,South,PROD-449,Furniture,Chairs,Product B,696.16,1,0.01,-41.37
+ORD-1450,2023-03-27,2023-03-29,Standard Class,CUST-112,Jane Doe,Consumer,United States,Seattle,Illinois,64001,Central,PROD-450,Technology,Binders,Product C,671.87,2,0.05,-173.41
+ORD-1451,2023-03-28,2023-03-30,First Class,CUST-199,Robert Brown,Home Office,United States,New York,California,64847,South,PROD-451,Technology,Accessories,Product B,869.33,5,0.4,170.36
+ORD-1452,2023-03-29,2023-03-31,Standard Class,CUST-125,Alice Johnson,Consumer,United States,Houston,Texas,18252,East,PROD-452,Technology,Chairs,Product D,204.41,4,0.43,-126.16
+ORD-1453,2023-03-30,2023-04-01,First Class,CUST-101,Alice Johnson,Corporate,United States,Los Angeles,California,26209,East,PROD-453,Office Supplies,Accessories,Product D,715.66,9,0.14,-44.7
+ORD-1454,2023-03-31,2023-04-02,Standard Class,CUST-141,Jane Doe,Corporate,United States,Seattle,Illinois,25025,South,PROD-454,Technology,Phones,Product C,112.86,2,0.32,118.59
+ORD-1455,2023-04-01,2023-04-03,Same Day,CUST-155,Alice Johnson,Home Office,United States,New York,California,17016,Central,PROD-455,Technology,Phones,Product D,66.06,1,0.36,-96.59
+ORD-1456,2023-04-02,2023-04-04,First Class,CUST-155,Robert Brown,Home Office,United States,New York,Illinois,53275,West,PROD-456,Office Supplies,Binders,Product B,683.99,5,0.13,-183.88
+ORD-1457,2023-04-03,2023-04-05,Standard Class,CUST-164,Alice Johnson,Corporate,United States,Seattle,Illinois,68391,Central,PROD-457,Furniture,Accessories,Product C,32.41,3,0.43,155.1
+ORD-1458,2023-04-04,2023-04-06,Standard Class,CUST-115,Alice Johnson,Home Office,United States,Los Angeles,California,48481,East,PROD-458,Office Supplies,Tables,Product C,53.86,4,0.03,-123.35
+ORD-1459,2023-04-05,2023-04-07,First Class,CUST-192,John Smith,Home Office,United States,Houston,Illinois,88860,East,PROD-459,Furniture,Binders,Product A,46.58,9,0.26,126.29
+ORD-1460,2023-04-06,2023-04-08,Same Day,CUST-140,John Smith,Consumer,United States,Seattle,California,69576,West,PROD-460,Technology,Binders,Product A,470.76,9,0.19,273.86
+ORD-1461,2023-04-07,2023-04-09,Standard Class,CUST-160,Robert Brown,Corporate,United States,Los Angeles,Texas,35041,Central,PROD-461,Technology,Accessories,Product A,760.29,2,0.39,-82.39
+ORD-1462,2023-04-08,2023-04-10,First Class,CUST-170,Jane Doe,Consumer,United States,Houston,California,43488,West,PROD-462,Office Supplies,Tables,Product B,992.28,5,0.24,271.68
+ORD-1463,2023-04-09,2023-04-11,Same Day,CUST-149,John Smith,Corporate,United States,Seattle,Illinois,30360,Central,PROD-463,Technology,Accessories,Product A,234.34,7,0.3,285.21
+ORD-1464,2023-04-10,2023-04-12,Standard Class,CUST-150,Robert Brown,Corporate,United States,Chicago,California,88982,South,PROD-464,Technology,Accessories,Product C,794.46,6,0.08,230.1
+ORD-1465,2023-04-11,2023-04-13,Same Day,CUST-132,Robert Brown,Home Office,United States,Seattle,California,17850,East,PROD-465,Technology,Chairs,Product C,797.29,4,0.03,-21.07
+ORD-1466,2023-04-12,2023-04-14,Same Day,CUST-190,Jane Doe,Corporate,United States,Chicago,California,16041,East,PROD-466,Technology,Accessories,Product D,873.52,3,0.47,96.05
+ORD-1467,2023-04-13,2023-04-15,First Class,CUST-120,Jane Doe,Consumer,United States,Chicago,Washington,51507,Central,PROD-467,Office Supplies,Binders,Product D,321.11,1,0.28,58.52
+ORD-1468,2023-04-14,2023-04-16,Second Class,CUST-152,Alice Johnson,Home Office,United States,Los Angeles,California,78842,Central,PROD-468,Furniture,Tables,Product B,141.6,8,0.05,-159.15
+ORD-1469,2023-04-15,2023-04-17,Standard Class,CUST-138,Alice Johnson,Home Office,United States,New York,Washington,39939,Central,PROD-469,Technology,Chairs,Product D,798.73,5,0.02,108.75
+ORD-1470,2023-04-16,2023-04-18,Second Class,CUST-165,Robert Brown,Consumer,United States,New York,New York,81499,East,PROD-470,Office Supplies,Accessories,Product D,571.79,1,0.3,244.4
+ORD-1471,2023-04-17,2023-04-19,First Class,CUST-180,Jane Doe,Consumer,United States,Seattle,New York,14378,West,PROD-471,Furniture,Binders,Product D,420.51,4,0.37,-152.02
+ORD-1472,2023-04-18,2023-04-20,Same Day,CUST-157,Alice Johnson,Consumer,United States,New York,California,60007,East,PROD-472,Office Supplies,Phones,Product B,68.06,8,0.2,251.24
+ORD-1473,2023-04-19,2023-04-21,Standard Class,CUST-152,John Smith,Consumer,United States,Chicago,California,93149,Central,PROD-473,Technology,Tables,Product C,16.49,6,0.03,-17.94
+ORD-1474,2023-04-20,2023-04-22,Standard Class,CUST-189,John Smith,Corporate,United States,Houston,New York,53836,South,PROD-474,Technology,Tables,Product B,322.86,1,0.41,53.9
+ORD-1475,2023-04-21,2023-04-23,Standard Class,CUST-119,Robert Brown,Corporate,United States,Chicago,Washington,51524,West,PROD-475,Technology,Chairs,Product A,278.74,2,0.25,-38.6
+ORD-1476,2023-04-22,2023-04-24,First Class,CUST-194,Jane Doe,Consumer,United States,Los Angeles,Texas,98881,South,PROD-476,Office Supplies,Tables,Product C,480.97,8,0.08,229.98
+ORD-1477,2023-04-23,2023-04-25,Second Class,CUST-164,Alice Johnson,Consumer,United States,Chicago,California,49076,South,PROD-477,Office Supplies,Tables,Product C,924.38,4,0.11,-62.03
+ORD-1478,2023-04-24,2023-04-26,Standard Class,CUST-142,Alice Johnson,Home Office,United States,Houston,New York,60620,Central,PROD-478,Furniture,Accessories,Product B,422.52,8,0.14,59.12
+ORD-1479,2023-04-25,2023-04-27,Same Day,CUST-147,Jane Doe,Corporate,United States,New York,New York,73685,West,PROD-479,Office Supplies,Chairs,Product C,295.01,7,0.2,258.89
+ORD-1480,2023-04-26,2023-04-28,Second Class,CUST-121,Alice Johnson,Corporate,United States,New York,New York,85197,East,PROD-480,Technology,Accessories,Product C,846.79,2,0.39,-171.09
+ORD-1481,2023-04-27,2023-04-29,Second Class,CUST-197,Alice Johnson,Corporate,United States,Houston,New York,16944,East,PROD-481,Office Supplies,Phones,Product A,313.88,7,0.12,104.74
+ORD-1482,2023-04-28,2023-04-30,Second Class,CUST-101,Jane Doe,Consumer,United States,Chicago,Texas,54847,Central,PROD-482,Furniture,Tables,Product D,916.43,2,0.27,-162.46
+ORD-1483,2023-04-29,2023-05-01,Second Class,CUST-189,Alice Johnson,Consumer,United States,Chicago,California,91554,West,PROD-483,Office Supplies,Binders,Product D,864.78,1,0.33,149.95
+ORD-1484,2023-04-30,2023-05-02,First Class,CUST-138,Robert Brown,Home Office,United States,New York,Washington,39019,Central,PROD-484,Furniture,Binders,Product A,642.43,8,0.38,258.46
+ORD-1485,2023-05-01,2023-05-03,Second Class,CUST-112,John Smith,Home Office,United States,Houston,New York,44505,East,PROD-485,Office Supplies,Chairs,Product C,750.2,4,0.25,111.61
+ORD-1486,2023-05-02,2023-05-04,Standard Class,CUST-118,John Smith,Home Office,United States,New York,Washington,44920,West,PROD-486,Technology,Phones,Product A,165.75,5,0.27,-75.33
+ORD-1487,2023-05-03,2023-05-05,Second Class,CUST-177,Robert Brown,Corporate,United States,New York,California,95841,West,PROD-487,Technology,Phones,Product D,606.85,3,0.19,-93.92
+ORD-1488,2023-05-04,2023-05-06,First Class,CUST-177,Robert Brown,Home Office,United States,Houston,California,37660,East,PROD-488,Office Supplies,Chairs,Product C,333.77,8,0.08,-109.91
+ORD-1489,2023-05-05,2023-05-07,First Class,CUST-188,Robert Brown,Home Office,United States,New York,California,93369,West,PROD-489,Furniture,Chairs,Product B,493.79,7,0.02,63.83
+ORD-1490,2023-05-06,2023-05-08,Standard Class,CUST-190,Robert Brown,Corporate,United States,Los Angeles,Illinois,50505,West,PROD-490,Furniture,Chairs,Product A,233.13,6,0.12,215.68
+ORD-1491,2023-05-07,2023-05-09,Standard Class,CUST-183,Alice Johnson,Corporate,United States,Los Angeles,Texas,60502,East,PROD-491,Technology,Phones,Product B,902.94,3,0.16,141.11
+ORD-1492,2023-05-08,2023-05-10,Same Day,CUST-139,Jane Doe,Corporate,United States,Houston,New York,79494,West,PROD-492,Office Supplies,Binders,Product A,417.42,6,0.2,-133.94
+ORD-1493,2023-05-09,2023-05-11,Second Class,CUST-198,John Smith,Corporate,United States,Seattle,Illinois,64352,East,PROD-493,Office Supplies,Tables,Product C,481.97,8,0.24,183.15
+ORD-1494,2023-05-10,2023-05-12,First Class,CUST-115,Alice Johnson,Home Office,United States,New York,California,45054,South,PROD-494,Furniture,Binders,Product B,724.19,6,0.1,184.23
+ORD-1495,2023-05-11,2023-05-13,First Class,CUST-137,Alice Johnson,Consumer,United States,Houston,California,57175,South,PROD-495,Furniture,Phones,Product D,130.97,2,0.45,-68.13
+ORD-1496,2023-05-12,2023-05-14,First Class,CUST-196,Jane Doe,Corporate,United States,Los Angeles,New York,14333,West,PROD-496,Office Supplies,Binders,Product B,508.03,7,0.16,-186.74
+ORD-1497,2023-05-13,2023-05-15,Standard Class,CUST-136,Jane Doe,Corporate,United States,Chicago,Texas,73246,South,PROD-497,Office Supplies,Accessories,Product C,815.02,8,0.43,-11.56
+ORD-1498,2023-05-14,2023-05-16,Same Day,CUST-198,John Smith,Corporate,United States,New York,New York,98548,East,PROD-498,Technology,Chairs,Product D,680.57,6,0.15,185.53
+ORD-1499,2023-05-15,2023-05-17,Standard Class,CUST-101,Robert Brown,Consumer,United States,New York,Illinois,76970,Central,PROD-499,Office Supplies,Accessories,Product B,328.43,2,0.39,297.02
